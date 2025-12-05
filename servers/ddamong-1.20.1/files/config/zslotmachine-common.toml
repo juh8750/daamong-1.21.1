@@ -1,0 +1,66 @@
+
+[game_settings]
+	#베팅 가능한 아이템 목록 | Items that can be used for betting
+	#예: ["minecraft:diamond", "minecraft:emerald", "minecraft:gold_ingot"]
+	betting_items = ["minecraft:diamond"]
+	#잭팟 확률 (10000 중) | Jackpot probability (out of 10000)
+	#기본값 156 = 1.56% 확률
+	#Range: 1 ~ 10000
+	jackpot_probability = 156
+	#번개 잭팟 확률 (100 중) | Lightning jackpot probability (out of 100)
+	#잭팟이 나왔을 때, 이 확률로 번개 잭팟이 됩니다
+	#기본값 14 = 14% 확률 (잭팟 중에서)
+	#Range: 0 ~ 100
+	jackpot_lightning_probability = 14
+	#2개 일치 확률 (10000 중) | Two match probability (out of 10000)
+	#기본값 4694 = 46.94% 확률
+	#Range: 1 ~ 10000
+	two_match_probability = 4694
+	#실패 확률 (10000 중) | Fail probability (out of 10000)
+	#기본값 5150 = 51.5% 확률
+	#Range: 1 ~ 10000
+	fail_probability = 5150
+	#2개 일치 배율 | Reward multiplier for two match
+	#2배 = 다이아 1개 넣으면 2개 획득
+	#Range: 1 ~ 100
+	two_match_multiplier = 2
+	#잭팟 배율 | Reward multiplier for jackpot
+	#10배 = 다이아 1개 넣으면 10개 획득
+	#Range: 1 ~ 1000
+	jackpot_multiplier = 10
+	#게임 진행 시간 (틱) | Game duration in ticks
+	#60틱 = 3초, 20틱 = 1초
+	#Range: 20 ~ 600
+	game_duration_ticks = 60
+	#보상 지급 간격 (틱) | Reward dispensing interval in ticks
+	#3틱마다 아이템 1개씩 지급
+	#Range: 1 ~ 20
+	reward_duration_ticks = 3
+	#최대 보상 아이템 수 | Maximum number of reward items
+	#한 번에 지급할 수 있는 최대 아이템 개수
+	#Range: 1 ~ 99999
+	max_reward_items = 99999
+
+[special_effects]
+	#특별 잭팟 번개 효과 | Enable lightning strike on special jackpot
+	#true = 번개 잭팟 활성화
+	enable_jackpot_lightning = true
+	#번개 대미지 | Lightning damage
+	#100.0 = 플레이어 체력 50칸
+	#Range: 0.0 ~ 1000.0
+	jackpot_lightning_damage = 100.0
+
+[audio_settings]
+	#아이템 투입 소리 크기 | Volume for insert sound
+	#1.0 = 기본, 2.0 = 2배 크게
+	#Range: 0.0 ~ 10.0
+	sound_volume_insert = 2.0
+	#레버 당기는 소리 크기 | Volume for lever sound
+	#1.0 = 기본, 2.0 = 2배 크게
+	#Range: 0.0 ~ 10.0
+	sound_volume_lever = 2.0
+	#보상 소리 크기 | Volume for reward sound
+	#0.4 = 기본, 1.5 = 1.5배 크게
+	#Range: 0.0 ~ 10.0
+	sound_volume_reward = 0.4
+

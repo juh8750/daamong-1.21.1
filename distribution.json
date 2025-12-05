@@ -1,0 +1,4233 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "ddamong-1.20.1",
+      "name": "ddamong (Minecraft 1.20.1)",
+      "description": "ddamong Running Minecraft 1.20.1 (Forge v47.3.22)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "175.112.128.114:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "",
+        "largeImageText": "",
+        "largeImageKey": ""
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.22",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7401,
+            "MD5": "81dc6bb506829755e3d29fbaab4d9bbb",
+            "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.22/lowcodelanguage-1.20.1-47.3.22.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.3.22",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16624,
+                "MD5": "5b2f060ab24af9e927398b29135aa7c5",
+                "url": "https://juh8750.github.io/repo/versions/1.20.1-forge-47.3.22/1.20.1-forge-47.3.22.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.22",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118579,
+                "MD5": "e00b6331668c2b16cf6dc2fca5579157",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.22/fmlcore-1.20.1-47.3.22.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.22",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16857,
+                "MD5": "b73d7c55ab0a5af07629a27e8398d774",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.22/javafmllanguage-1.20.1-47.3.22.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.22",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 5001,
+                "MD5": "8b86e5f5aabc03162edeaad6b241997d",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.22/mclanguage-1.20.1-47.3.22.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.22:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2761726,
+                "MD5": "d11524d18b5274cc5d9de749d34f1e37",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/forge/1.20.1-47.3.22/forge-1.20.1-47.3.22-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.22:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4794071,
+                "MD5": "d13b796e89ac734128d8fa5b2d98de47",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/forge/1.20.1-47.3.22/forge-1.20.1-47.3.22-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://juh8750.github.io/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://juh8750.github.io/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://juh8750.github.io/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://juh8750.github.io/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://juh8750.github.io/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://juh8750.github.io/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://juh8750.github.io/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://juh8750.github.io/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://juh8750.github.io/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://juh8750.github.io/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://juh8750.github.io/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://juh8750.github.io/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://juh8750.github.io/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://juh8750.github.io/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://juh8750.github.io/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://juh8750.github.io/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://juh8750.github.io/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://juh8750.github.io/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.22",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 265988,
+                "MD5": "78a50d4f473dead4d2f7464c48b115f6",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.22/fmlloader-1.20.1-47.3.22.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.22",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170460,
+                "MD5": "7cfddfbe25d1b46170b2e3850c91f03d",
+                "url": "https://juh8750.github.io/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.22/fmlearlydisplay-1.20.1-47.3.22.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "aiimprovements-common.toml",
+          "name": "aiimprovements-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6211,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/aiimprovements-common.toml",
+            "MD5": "71450aa2f5b19702f457be0d519bf725",
+            "path": "config/aiimprovements-common.toml"
+          }
+        },
+        {
+          "id": "alligator_snapping_turtle_spawns.json",
+          "name": "alligator_snapping_turtle_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 754,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/alligator_snapping_turtle_spawns.json",
+            "MD5": "e880e0c7e38986fb1f7a8885a892b0fc",
+            "path": "config/alexsmobs/alligator_snapping_turtle_spawns.json"
+          }
+        },
+        {
+          "id": "anaconda_spawns.json",
+          "name": "anaconda_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1036,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/anaconda_spawns.json",
+            "MD5": "74d2b1bc857e9acb8321f296567a8f7f",
+            "path": "config/alexsmobs/anaconda_spawns.json"
+          }
+        },
+        {
+          "id": "anteater_spawns.json",
+          "name": "anteater_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/anteater_spawns.json",
+            "MD5": "2040bb544aff0345a335fd895cd0022c",
+            "path": "config/alexsmobs/anteater_spawns.json"
+          }
+        },
+        {
+          "id": "bald_eagle_spawns.json",
+          "name": "bald_eagle_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2723,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/bald_eagle_spawns.json",
+            "MD5": "dd9229ac98bbf83a1309d4b1e3770fd5",
+            "path": "config/alexsmobs/bald_eagle_spawns.json"
+          }
+        },
+        {
+          "id": "banana_slug_spawns.json",
+          "name": "banana_slug_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1697,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/banana_slug_spawns.json",
+            "MD5": "6aec0b8dd4904343a50e7fb0a37b2912",
+            "path": "config/alexsmobs/banana_slug_spawns.json"
+          }
+        },
+        {
+          "id": "bison_spawns.json",
+          "name": "bison_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1761,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/bison_spawns.json",
+            "MD5": "729766841964832662fb610b6a661dc4",
+            "path": "config/alexsmobs/bison_spawns.json"
+          }
+        },
+        {
+          "id": "blobfish_spawns.json",
+          "name": "blobfish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/blobfish_spawns.json",
+            "MD5": "ad3201c8f95a758dbe8496d677756a5e",
+            "path": "config/alexsmobs/blobfish_spawns.json"
+          }
+        },
+        {
+          "id": "blue_jay_spawns.json",
+          "name": "blue_jay_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 4020,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/blue_jay_spawns.json",
+            "MD5": "9b797aa57e7c173d5e4a8f034f267dff",
+            "path": "config/alexsmobs/blue_jay_spawns.json"
+          }
+        },
+        {
+          "id": "bone_serpent_spawns.json",
+          "name": "bone_serpent_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 257,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/bone_serpent_spawns.json",
+            "MD5": "7f0b198410364ba04743be1a24f901db",
+            "path": "config/alexsmobs/bone_serpent_spawns.json"
+          }
+        },
+        {
+          "id": "bunfungus_spawns.json",
+          "name": "bunfungus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 486,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/bunfungus_spawns.json",
+            "MD5": "e585908f8d3914a77836461f2f136848",
+            "path": "config/alexsmobs/bunfungus_spawns.json"
+          }
+        },
+        {
+          "id": "cachalot_whale_beached_spawns.json",
+          "name": "cachalot_whale_beached_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 642,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/cachalot_whale_beached_spawns.json",
+            "MD5": "b779f228a334a5be8eaa5f845664105c",
+            "path": "config/alexsmobs/cachalot_whale_beached_spawns.json"
+          }
+        },
+        {
+          "id": "cachalot_whale_spawns.json",
+          "name": "cachalot_whale_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 893,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/cachalot_whale_spawns.json",
+            "MD5": "53158516acce1c7ce2d05e0a61ff5965",
+            "path": "config/alexsmobs/cachalot_whale_spawns.json"
+          }
+        },
+        {
+          "id": "caiman_spawns.json",
+          "name": "caiman_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/caiman_spawns.json",
+            "MD5": "0443b3f49eb26ce302434cf0af666b90",
+            "path": "config/alexsmobs/caiman_spawns.json"
+          }
+        },
+        {
+          "id": "capuchin_monkey_spawns.json",
+          "name": "capuchin_monkey_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1184,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/capuchin_monkey_spawns.json",
+            "MD5": "61f854072c18a0b127bb37c01b33a0ae",
+            "path": "config/alexsmobs/capuchin_monkey_spawns.json"
+          }
+        },
+        {
+          "id": "catfish_spawns.json",
+          "name": "catfish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1097,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/catfish_spawns.json",
+            "MD5": "f0234087612d8035344fbfb634cebfa9",
+            "path": "config/alexsmobs/catfish_spawns.json"
+          }
+        },
+        {
+          "id": "cave_centipede_spawns.json",
+          "name": "cave_centipede_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2200,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/cave_centipede_spawns.json",
+            "MD5": "a6fcbacb06418e1c951695b0f4919f13",
+            "path": "config/alexsmobs/cave_centipede_spawns.json"
+          }
+        },
+        {
+          "id": "cockroach_spawns.json",
+          "name": "cockroach_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2085,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/cockroach_spawns.json",
+            "MD5": "4b8fb651c60044198150aa49c4193dcc",
+            "path": "config/alexsmobs/cockroach_spawns.json"
+          }
+        },
+        {
+          "id": "comb_jelly_spawns.json",
+          "name": "comb_jelly_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 414,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/comb_jelly_spawns.json",
+            "MD5": "e9fa2345daa80ad12a849fe96ea656f9",
+            "path": "config/alexsmobs/comb_jelly_spawns.json"
+          }
+        },
+        {
+          "id": "cosmaw_spawns.json",
+          "name": "cosmaw_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 371,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/cosmaw_spawns.json",
+            "MD5": "99ec85d1693bdd51d1970b9bfba84267",
+            "path": "config/alexsmobs/cosmaw_spawns.json"
+          }
+        },
+        {
+          "id": "cosmic_cod_spawns.json",
+          "name": "cosmic_cod_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 139,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/cosmic_cod_spawns.json",
+            "MD5": "84b1c3b63a2e5656da5478c844a5ad49",
+            "path": "config/alexsmobs/cosmic_cod_spawns.json"
+          }
+        },
+        {
+          "id": "crimson_mosquito_spawns.json",
+          "name": "crimson_mosquito_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 785,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/crimson_mosquito_spawns.json",
+            "MD5": "0c095c6657c6df75653ab9a0b049b4e1",
+            "path": "config/alexsmobs/crimson_mosquito_spawns.json"
+          }
+        },
+        {
+          "id": "crocodile_spawns.json",
+          "name": "crocodile_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1007,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/crocodile_spawns.json",
+            "MD5": "062f820f53eee3c3a4eed7621a4d96c3",
+            "path": "config/alexsmobs/crocodile_spawns.json"
+          }
+        },
+        {
+          "id": "crow_spawns.json",
+          "name": "crow_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 5146,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/crow_spawns.json",
+            "MD5": "607a09f65c8023448ad7828e29bde4e6",
+            "path": "config/alexsmobs/crow_spawns.json"
+          }
+        },
+        {
+          "id": "devils_hole_pupfish_spawns.json",
+          "name": "devils_hole_pupfish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/devils_hole_pupfish_spawns.json",
+            "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
+            "path": "config/alexsmobs/devils_hole_pupfish_spawns.json"
+          }
+        },
+        {
+          "id": "dropbear_spawns.json",
+          "name": "dropbear_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 403,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/dropbear_spawns.json",
+            "MD5": "95aa6694d6dd2f14fcfcedc28f5698e9",
+            "path": "config/alexsmobs/dropbear_spawns.json"
+          }
+        },
+        {
+          "id": "elephant_spawns.json",
+          "name": "elephant_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1163,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/elephant_spawns.json",
+            "MD5": "1032996d6a2cac873766f7a443d44810",
+            "path": "config/alexsmobs/elephant_spawns.json"
+          }
+        },
+        {
+          "id": "emu_spawns.json",
+          "name": "emu_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1661,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/emu_spawns.json",
+            "MD5": "3eb32cae8d7825df19055f0b673481ec",
+            "path": "config/alexsmobs/emu_spawns.json"
+          }
+        },
+        {
+          "id": "endergrade_spawns.json",
+          "name": "endergrade_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/endergrade_spawns.json",
+            "MD5": "fe07337e303bd453f45f00ec63fa9c0a",
+            "path": "config/alexsmobs/endergrade_spawns.json"
+          }
+        },
+        {
+          "id": "enderiophage_spawns.json",
+          "name": "enderiophage_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 603,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/enderiophage_spawns.json",
+            "MD5": "4ab64e4848a83c605d54ade54fdf0702",
+            "path": "config/alexsmobs/enderiophage_spawns.json"
+          }
+        },
+        {
+          "id": "farseer.json",
+          "name": "farseer.json",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/farseer.json",
+            "MD5": "337b5b31ce112b2c614749d2e1047254",
+            "path": "config/alexsmobs/farseer.json"
+          }
+        },
+        {
+          "id": "flutter_spawns.json",
+          "name": "flutter_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/flutter_spawns.json",
+            "MD5": "1ab7408c8c7997d1ca595bdaa531820b",
+            "path": "config/alexsmobs/flutter_spawns.json"
+          }
+        },
+        {
+          "id": "flying_fish_spawns.json",
+          "name": "flying_fish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 716,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/flying_fish_spawns.json",
+            "MD5": "7bf21cd1ccc1499470e52d91402a899f",
+            "path": "config/alexsmobs/flying_fish_spawns.json"
+          }
+        },
+        {
+          "id": "fly_spawns.json",
+          "name": "fly_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/fly_spawns.json",
+            "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
+            "path": "config/alexsmobs/fly_spawns.json"
+          }
+        },
+        {
+          "id": "frilled_shark_spawns.json",
+          "name": "frilled_shark_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/frilled_shark_spawns.json",
+            "MD5": "ad3201c8f95a758dbe8496d677756a5e",
+            "path": "config/alexsmobs/frilled_shark_spawns.json"
+          }
+        },
+        {
+          "id": "froststalker_spawns.json",
+          "name": "froststalker_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 934,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/froststalker_spawns.json",
+            "MD5": "2a017b04fa69a371da739dca3dccfaeb",
+            "path": "config/alexsmobs/froststalker_spawns.json"
+          }
+        },
+        {
+          "id": "gazelle_spawns.json",
+          "name": "gazelle_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1050,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/gazelle_spawns.json",
+            "MD5": "397912ee2f4758bf87c6e017fc8c3dc0",
+            "path": "config/alexsmobs/gazelle_spawns.json"
+          }
+        },
+        {
+          "id": "gelada_monkey_spawns.json",
+          "name": "gelada_monkey_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1001,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/gelada_monkey_spawns.json",
+            "MD5": "c229e44c5b5bd924b2449149c1fabac7",
+            "path": "config/alexsmobs/gelada_monkey_spawns.json"
+          }
+        },
+        {
+          "id": "giant_squid_spawns.json",
+          "name": "giant_squid_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/giant_squid_spawns.json",
+            "MD5": "ad3201c8f95a758dbe8496d677756a5e",
+            "path": "config/alexsmobs/giant_squid_spawns.json"
+          }
+        },
+        {
+          "id": "gorilla_spawns.json",
+          "name": "gorilla_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1053,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/gorilla_spawns.json",
+            "MD5": "803b7292137cbeece7aaa1d69e04b5b2",
+            "path": "config/alexsmobs/gorilla_spawns.json"
+          }
+        },
+        {
+          "id": "grizzly_bear_spawns.json",
+          "name": "grizzly_bear_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 4020,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/grizzly_bear_spawns.json",
+            "MD5": "9b797aa57e7c173d5e4a8f034f267dff",
+            "path": "config/alexsmobs/grizzly_bear_spawns.json"
+          }
+        },
+        {
+          "id": "guster_spawns.json",
+          "name": "guster_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1132,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/guster_spawns.json",
+            "MD5": "9f7fac3c24c356a767bce153106054dd",
+            "path": "config/alexsmobs/guster_spawns.json"
+          }
+        },
+        {
+          "id": "hammerhead_shark_spawns.json",
+          "name": "hammerhead_shark_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 254,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/hammerhead_shark_spawns.json",
+            "MD5": "3e1c6fd6a63f92c5784cd66565dfb1f7",
+            "path": "config/alexsmobs/hammerhead_shark_spawns.json"
+          }
+        },
+        {
+          "id": "hummingbird_spawns.json",
+          "name": "hummingbird_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 3029,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/hummingbird_spawns.json",
+            "MD5": "4ab2f69a298dba2dd6de993426aa1642",
+            "path": "config/alexsmobs/hummingbird_spawns.json"
+          }
+        },
+        {
+          "id": "jerboa_spawns.json",
+          "name": "jerboa_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/jerboa_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/jerboa_spawns.json"
+          }
+        },
+        {
+          "id": "kangaroo_spawns.json",
+          "name": "kangaroo_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1661,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/kangaroo_spawns.json",
+            "MD5": "3eb32cae8d7825df19055f0b673481ec",
+            "path": "config/alexsmobs/kangaroo_spawns.json"
+          }
+        },
+        {
+          "id": "komodo_dragon_spawns.json",
+          "name": "komodo_dragon_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 775,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/komodo_dragon_spawns.json",
+            "MD5": "bb0e841a9cf2784c27209ab46af2ab58",
+            "path": "config/alexsmobs/komodo_dragon_spawns.json"
+          }
+        },
+        {
+          "id": "laviathan_spawns.json",
+          "name": "laviathan_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 142,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/laviathan_spawns.json",
+            "MD5": "477bc268eb72dc151845a22729de3fe8",
+            "path": "config/alexsmobs/laviathan_spawns.json"
+          }
+        },
+        {
+          "id": "leafcutter_anthill_spawns.json",
+          "name": "leafcutter_anthill_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/leafcutter_anthill_spawns.json",
+            "MD5": "2040bb544aff0345a335fd895cd0022c",
+            "path": "config/alexsmobs/leafcutter_anthill_spawns.json"
+          }
+        },
+        {
+          "id": "lobster_spawns.json",
+          "name": "lobster_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 398,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/lobster_spawns.json",
+            "MD5": "3284cadc1438c85425a3621a016e6eba",
+            "path": "config/alexsmobs/lobster_spawns.json"
+          }
+        },
+        {
+          "id": "maned_wolf_spawns.json",
+          "name": "maned_wolf_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1037,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/maned_wolf_spawns.json",
+            "MD5": "c21feac193fa689955ac90f659e1f0c2",
+            "path": "config/alexsmobs/maned_wolf_spawns.json"
+          }
+        },
+        {
+          "id": "mantis_shrimp_spawns.json",
+          "name": "mantis_shrimp_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 385,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/mantis_shrimp_spawns.json",
+            "MD5": "c0a4157361a392c8a4d4e32d95bcc46f",
+            "path": "config/alexsmobs/mantis_shrimp_spawns.json"
+          }
+        },
+        {
+          "id": "mimicube_spawns.json",
+          "name": "mimicube_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 365,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/mimicube_spawns.json",
+            "MD5": "5dfd54d2860bbecb3d63d3a0cbc42752",
+            "path": "config/alexsmobs/mimicube_spawns.json"
+          }
+        },
+        {
+          "id": "mimic_octopus_spawns.json",
+          "name": "mimic_octopus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 373,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/mimic_octopus_spawns.json",
+            "MD5": "468f301a2a863dc3c56c0dffc967fb73",
+            "path": "config/alexsmobs/mimic_octopus_spawns.json"
+          }
+        },
+        {
+          "id": "moose_spawns.json",
+          "name": "moose_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2291,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/moose_spawns.json",
+            "MD5": "9352df8e11cc9d6c49756868320ff3bb",
+            "path": "config/alexsmobs/moose_spawns.json"
+          }
+        },
+        {
+          "id": "mudskipper_spawns.json",
+          "name": "mudskipper_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/mudskipper_spawns.json",
+            "MD5": "0443b3f49eb26ce302434cf0af666b90",
+            "path": "config/alexsmobs/mudskipper_spawns.json"
+          }
+        },
+        {
+          "id": "mungus_spawns.json",
+          "name": "mungus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 486,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/mungus_spawns.json",
+            "MD5": "e585908f8d3914a77836461f2f136848",
+            "path": "config/alexsmobs/mungus_spawns.json"
+          }
+        },
+        {
+          "id": "murmur.json",
+          "name": "murmur.json",
+          "type": "File",
+          "artifact": {
+            "size": 2200,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/murmur.json",
+            "MD5": "a6fcbacb06418e1c951695b0f4919f13",
+            "path": "config/alexsmobs/murmur.json"
+          }
+        },
+        {
+          "id": "orca_spawns.json",
+          "name": "orca_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/orca_spawns.json",
+            "MD5": "7c9a514102d327b8d9ba16b19a991049",
+            "path": "config/alexsmobs/orca_spawns.json"
+          }
+        },
+        {
+          "id": "platypus_spawns.json",
+          "name": "platypus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 625,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/platypus_spawns.json",
+            "MD5": "058a3971fb93597c04c1769bfe265fb9",
+            "path": "config/alexsmobs/platypus_spawns.json"
+          }
+        },
+        {
+          "id": "potoo_spawns.json",
+          "name": "potoo_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/potoo_spawns.json",
+            "MD5": "d1511fa5b0562676dab091599bc838a2",
+            "path": "config/alexsmobs/potoo_spawns.json"
+          }
+        },
+        {
+          "id": "raccoon_spawns.json",
+          "name": "raccoon_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 3712,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/raccoon_spawns.json",
+            "MD5": "ef2fd8cf69fc21a78c45e79c1a1bf5a7",
+            "path": "config/alexsmobs/raccoon_spawns.json"
+          }
+        },
+        {
+          "id": "rain_frog_spawns.json",
+          "name": "rain_frog_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/rain_frog_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/rain_frog_spawns.json"
+          }
+        },
+        {
+          "id": "rattlesnake_spawns.json",
+          "name": "rattlesnake_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1646,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/rattlesnake_spawns.json",
+            "MD5": "c9f3ffa55ec8cc5d57ed9a8bcb0ea1fe",
+            "path": "config/alexsmobs/rattlesnake_spawns.json"
+          }
+        },
+        {
+          "id": "rhinoceros_spawns.json",
+          "name": "rhinoceros_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1050,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/rhinoceros_spawns.json",
+            "MD5": "397912ee2f4758bf87c6e017fc8c3dc0",
+            "path": "config/alexsmobs/rhinoceros_spawns.json"
+          }
+        },
+        {
+          "id": "roadrunner_spawns.json",
+          "name": "roadrunner_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1646,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/roadrunner_spawns.json",
+            "MD5": "c9f3ffa55ec8cc5d57ed9a8bcb0ea1fe",
+            "path": "config/alexsmobs/roadrunner_spawns.json"
+          }
+        },
+        {
+          "id": "rocky_roller_spawns.json",
+          "name": "rocky_roller_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 673,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/rocky_roller_spawns.json",
+            "MD5": "7f40733890dcc5279c2addea737b4b80",
+            "path": "config/alexsmobs/rocky_roller_spawns.json"
+          }
+        },
+        {
+          "id": "seagull_spawns.json",
+          "name": "seagull_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1296,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/seagull_spawns.json",
+            "MD5": "477c8512be58a4c7cadbc3ea65c3642a",
+            "path": "config/alexsmobs/seagull_spawns.json"
+          }
+        },
+        {
+          "id": "seal_spawns.json",
+          "name": "seal_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 877,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/seal_spawns.json",
+            "MD5": "001c3ef108fd4fa9766fc80441edeb04",
+            "path": "config/alexsmobs/seal_spawns.json"
+          }
+        },
+        {
+          "id": "shoebill_spawns.json",
+          "name": "shoebill_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 623,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/shoebill_spawns.json",
+            "MD5": "7e9b29c6eba19484a234ee300f2dea69",
+            "path": "config/alexsmobs/shoebill_spawns.json"
+          }
+        },
+        {
+          "id": "skelewag_spawns.json",
+          "name": "skelewag_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 374,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/skelewag_spawns.json",
+            "MD5": "b848bd81bc3b313dba92f2743bc27643",
+            "path": "config/alexsmobs/skelewag_spawns.json"
+          }
+        },
+        {
+          "id": "skreecher.json",
+          "name": "skreecher.json",
+          "type": "File",
+          "artifact": {
+            "size": 276,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/skreecher.json",
+            "MD5": "cf0d7ac8c8ec5f67d540efe79f2f2084",
+            "path": "config/alexsmobs/skreecher.json"
+          }
+        },
+        {
+          "id": "skunk_spawns.json",
+          "name": "skunk_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2037,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/skunk_spawns.json",
+            "MD5": "e077fe3ab2315f937483c66f95ece589",
+            "path": "config/alexsmobs/skunk_spawns.json"
+          }
+        },
+        {
+          "id": "snow_leopard_spawns.json",
+          "name": "snow_leopard_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1808,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/snow_leopard_spawns.json",
+            "MD5": "54323941affc9be9f7a507f68dbd4ee7",
+            "path": "config/alexsmobs/snow_leopard_spawns.json"
+          }
+        },
+        {
+          "id": "soul_vulture_spawns.json",
+          "name": "soul_vulture_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 523,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/soul_vulture_spawns.json",
+            "MD5": "4121b1b2b71908c6db3f6f2a8c53059a",
+            "path": "config/alexsmobs/soul_vulture_spawns.json"
+          }
+        },
+        {
+          "id": "spectre_spawns.json",
+          "name": "spectre_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/spectre_spawns.json",
+            "MD5": "fe07337e303bd453f45f00ec63fa9c0a",
+            "path": "config/alexsmobs/spectre_spawns.json"
+          }
+        },
+        {
+          "id": "straddler_spawns.json",
+          "name": "straddler_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/straddler_spawns.json",
+            "MD5": "bf5897f982c8063dc1d570ad6c4eee95",
+            "path": "config/alexsmobs/straddler_spawns.json"
+          }
+        },
+        {
+          "id": "stradpole_spawns.json",
+          "name": "stradpole_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/stradpole_spawns.json",
+            "MD5": "bf5897f982c8063dc1d570ad6c4eee95",
+            "path": "config/alexsmobs/stradpole_spawns.json"
+          }
+        },
+        {
+          "id": "sugar_glider_spawns.json",
+          "name": "sugar_glider_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 418,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/sugar_glider_spawns.json",
+            "MD5": "6f1722c17a8adc08ab757a0e6377233e",
+            "path": "config/alexsmobs/sugar_glider_spawns.json"
+          }
+        },
+        {
+          "id": "sunbird_spawns.json",
+          "name": "sunbird_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 3925,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/sunbird_spawns.json",
+            "MD5": "147fdf357f3478c40b5b7481569c6c07",
+            "path": "config/alexsmobs/sunbird_spawns.json"
+          }
+        },
+        {
+          "id": "tarantula_hawk_spawns.json",
+          "name": "tarantula_hawk_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/tarantula_hawk_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/tarantula_hawk_spawns.json"
+          }
+        },
+        {
+          "id": "tasmanian_devil_spawns.json",
+          "name": "tasmanian_devil_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1908,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/tasmanian_devil_spawns.json",
+            "MD5": "2234aec1f09e2e0e5d202cfbeb9b283b",
+            "path": "config/alexsmobs/tasmanian_devil_spawns.json"
+          }
+        },
+        {
+          "id": "terrapin_spawns.json",
+          "name": "terrapin_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 625,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/terrapin_spawns.json",
+            "MD5": "058a3971fb93597c04c1769bfe265fb9",
+            "path": "config/alexsmobs/terrapin_spawns.json"
+          }
+        },
+        {
+          "id": "tiger_spawns.json",
+          "name": "tiger_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1209,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/tiger_spawns.json",
+            "MD5": "8e7708606954a64a9f8648585c8a4a74",
+            "path": "config/alexsmobs/tiger_spawns.json"
+          }
+        },
+        {
+          "id": "toucan_spawns.json",
+          "name": "toucan_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/toucan_spawns.json",
+            "MD5": "2040bb544aff0345a335fd895cd0022c",
+            "path": "config/alexsmobs/toucan_spawns.json"
+          }
+        },
+        {
+          "id": "triops_spawns.json",
+          "name": "triops_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/triops_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/triops_spawns.json"
+          }
+        },
+        {
+          "id": "tusklin_spawns.json",
+          "name": "tusklin_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 882,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/tusklin_spawns.json",
+            "MD5": "502bb996e36a50b977acb73e29e975df",
+            "path": "config/alexsmobs/tusklin_spawns.json"
+          }
+        },
+        {
+          "id": "underminer.json",
+          "name": "underminer.json",
+          "type": "File",
+          "artifact": {
+            "size": 2085,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/underminer.json",
+            "MD5": "4b8fb651c60044198150aa49c4193dcc",
+            "path": "config/alexsmobs/underminer.json"
+          }
+        },
+        {
+          "id": "void_worm_spawns.json",
+          "name": "void_worm_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 18,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/void_worm_spawns.json",
+            "MD5": "0531dec7156e47b4566a5eb598a4b931",
+            "path": "config/alexsmobs/void_worm_spawns.json"
+          }
+        },
+        {
+          "id": "warped_mosco_spawns.json",
+          "name": "warped_mosco_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 18,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/warped_mosco_spawns.json",
+            "MD5": "0531dec7156e47b4566a5eb598a4b931",
+            "path": "config/alexsmobs/warped_mosco_spawns.json"
+          }
+        },
+        {
+          "id": "warped_toad_spawns.json",
+          "name": "warped_toad_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 661,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs/warped_toad_spawns.json",
+            "MD5": "39d42abce47f0e9e64bab7680a0d8ef0",
+            "path": "config/alexsmobs/warped_toad_spawns.json"
+          }
+        },
+        {
+          "id": "alexsmobs.toml",
+          "name": "alexsmobs.toml",
+          "type": "File",
+          "artifact": {
+            "size": 36192,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/alexsmobs.toml",
+            "MD5": "6b5567e6a3a903e0102c576899a33226",
+            "path": "config/alexsmobs.toml"
+          }
+        },
+        {
+          "id": "amendments-client.toml",
+          "name": "amendments-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3256,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/amendments-client.toml",
+            "MD5": "a82fbe768a7c08084a9eb0f1809356ba",
+            "path": "config/amendments-client.toml"
+          }
+        },
+        {
+          "id": "amendments-common.toml",
+          "name": "amendments-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3939,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/amendments-common.toml",
+            "MD5": "94775d8941867e935e6c34e4d8257e94",
+            "path": "config/amendments-common.toml"
+          }
+        },
+        {
+          "id": "appleskin-client.toml",
+          "name": "appleskin-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1361,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/appleskin-client.toml",
+            "MD5": "96c41ff44a443916b2a59da9feef9950",
+            "path": "config/appleskin-client.toml"
+          }
+        },
+        {
+          "id": "aquaculture-common.toml",
+          "name": "aquaculture-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 826,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/aquaculture-common.toml",
+            "MD5": "8c14e2cec1eaf623abaca19365c1bad6",
+            "path": "config/aquaculture-common.toml"
+          }
+        },
+        {
+          "id": "armordamagescale.json",
+          "name": "armordamagescale.json",
+          "type": "File",
+          "artifact": {
+            "size": 885,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/armordamagescale.json",
+            "MD5": "1f579181c81217a10c75fbfb7d21b4a1",
+            "path": "config/armordamagescale.json"
+          }
+        },
+        {
+          "id": "attributefix.json",
+          "name": "attributefix.json",
+          "type": "File",
+          "artifact": {
+            "size": 3865,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/attributefix.json",
+            "MD5": "0cc97b5c93783492a6ba18d0fadc1141",
+            "path": "config/attributefix.json"
+          }
+        },
+        {
+          "id": "awesomedungeonocean_1.properties",
+          "name": "awesomedungeonocean_1.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1569,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/awesomedungeonocean_1.properties",
+            "MD5": "c5940406324095815e2e7165615e4952",
+            "path": "config/awesomedungeonocean_1.properties"
+          }
+        },
+        {
+          "id": "badmobs-common.toml",
+          "name": "badmobs-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 198948,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/badmobs-common.toml",
+            "MD5": "2bc58dce2ff6496f3f93017ec102123f",
+            "path": "config/badmobs-common.toml"
+          }
+        },
+        {
+          "id": "betteradvancements-client.toml",
+          "name": "betteradvancements-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 924,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/betteradvancements-client.toml",
+            "MD5": "e8413a183920aaf802f27fc1e69ac1f6",
+            "path": "config/betteradvancements-client.toml"
+          }
+        },
+        {
+          "id": "betteroceanmonuments-forge-1_20.toml",
+          "name": "betteroceanmonuments-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 460,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/betteroceanmonuments-forge-1_20.toml",
+            "MD5": "87c9735623f1ee7b4e595151dbe3384a",
+            "path": "config/betteroceanmonuments-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "bettertridents-common.toml",
+          "name": "bettertridents-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 153,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/bettertridents-common.toml",
+            "MD5": "e87edfccd27fa6b02769e8bc59df2b04",
+            "path": "config/bettertridents-common.toml"
+          }
+        },
+        {
+          "id": "spawnbiomes.txt",
+          "name": "spawnbiomes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 171,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/biomespawnpoint/spawnbiomes.txt",
+            "MD5": "55d488383e9ee47903a930fec01968de",
+            "path": "config/biomespawnpoint/spawnbiomes.txt"
+          }
+        },
+        {
+          "id": "biome_replacer.properties",
+          "name": "biome_replacer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 351,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/biome_replacer.properties",
+            "MD5": "ba04fad79782cab8fabb40082b5b25ad",
+            "path": "config/biome_replacer.properties"
+          }
+        },
+        {
+          "id": "blueprint-client.toml",
+          "name": "blueprint-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 770,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/blueprint-client.toml",
+            "MD5": "274bf9121f5d934bbbb1a93fb65c40df",
+            "path": "config/blueprint-client.toml"
+          }
+        },
+        {
+          "id": "blueprint-common.toml",
+          "name": "blueprint-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 614,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/blueprint-common.toml",
+            "MD5": "fb65738d716b26bd26d85764ebacecda",
+            "path": "config/blueprint-common.toml"
+          }
+        },
+        {
+          "id": "amethyst_crab_spawns.json",
+          "name": "amethyst_crab_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cataclysm/amethyst_crab_spawns.json",
+            "MD5": "1ab7408c8c7997d1ca595bdaa531820b",
+            "path": "config/cataclysm/amethyst_crab_spawns.json"
+          }
+        },
+        {
+          "id": "coral_golem_spawns.json",
+          "name": "coral_golem_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cataclysm/coral_golem_spawns.json",
+            "MD5": "b4068581f457b455233003dbcbfb52eb",
+            "path": "config/cataclysm/coral_golem_spawns.json"
+          }
+        },
+        {
+          "id": "deepling_angler_spawns.json",
+          "name": "deepling_angler_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cataclysm/deepling_angler_spawns.json",
+            "MD5": "b4068581f457b455233003dbcbfb52eb",
+            "path": "config/cataclysm/deepling_angler_spawns.json"
+          }
+        },
+        {
+          "id": "deepling_brute_spawns.json",
+          "name": "deepling_brute_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cataclysm/deepling_brute_spawns.json",
+            "MD5": "b4068581f457b455233003dbcbfb52eb",
+            "path": "config/cataclysm/deepling_brute_spawns.json"
+          }
+        },
+        {
+          "id": "deepling_priest_spawns.json",
+          "name": "deepling_priest_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cataclysm/deepling_priest_spawns.json",
+            "MD5": "b4068581f457b455233003dbcbfb52eb",
+            "path": "config/cataclysm/deepling_priest_spawns.json"
+          }
+        },
+        {
+          "id": "deepling_spawns.json",
+          "name": "deepling_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cataclysm/deepling_spawns.json",
+            "MD5": "b4068581f457b455233003dbcbfb52eb",
+            "path": "config/cataclysm/deepling_spawns.json"
+          }
+        },
+        {
+          "id": "deepling_warlock_spawns.json",
+          "name": "deepling_warlock_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cataclysm/deepling_warlock_spawns.json",
+            "MD5": "b4068581f457b455233003dbcbfb52eb",
+            "path": "config/cataclysm/deepling_warlock_spawns.json"
+          }
+        },
+        {
+          "id": "koboleton_spawns.json",
+          "name": "koboleton_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 474,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cataclysm/koboleton_spawns.json",
+            "MD5": "1e376e1742f759bb96df81d7b003e610",
+            "path": "config/cataclysm/koboleton_spawns.json"
+          }
+        },
+        {
+          "id": "cataclysm.toml",
+          "name": "cataclysm.toml",
+          "type": "File",
+          "artifact": {
+            "size": 16528,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cataclysm.toml",
+            "MD5": "82bd34676543c612f019bd4494a8db97",
+            "path": "config/cataclysm.toml"
+          }
+        },
+        {
+          "id": "citadel-common.toml",
+          "name": "citadel-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 648,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/citadel-common.toml",
+            "MD5": "f211eac94129201b25acdeee49218d43",
+            "path": "config/citadel-common.toml"
+          }
+        },
+        {
+          "id": "collective.json5",
+          "name": "collective.json5",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/collective.json5",
+            "MD5": "c1a6c344217a2164ca0db41f9d286d00",
+            "path": "config/collective.json5"
+          }
+        },
+        {
+          "id": "configured-client.toml",
+          "name": "configured-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 93,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/configured-client.toml",
+            "MD5": "c832c4889e1cd0bfe147658abbcfd62c",
+            "path": "config/configured-client.toml"
+          }
+        },
+        {
+          "id": "cupboard.json",
+          "name": "cupboard.json",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/cupboard.json",
+            "MD5": "7725e2ad17f08b6221f0ecdeda137888",
+            "path": "config/cupboard.json"
+          }
+        },
+        {
+          "id": "curios-client.toml",
+          "name": "curios-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 706,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/curios-client.toml",
+            "MD5": "67aaec1814836fed2d3e021c29ef6848",
+            "path": "config/curios-client.toml"
+          }
+        },
+        {
+          "id": "curios-common.toml",
+          "name": "curios-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/curios-common.toml",
+            "MD5": "4e1978c603823135e91f736983a96649",
+            "path": "config/curios-common.toml"
+          }
+        },
+        {
+          "id": "disablestructures-common.toml",
+          "name": "disablestructures-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 228,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/disablestructures-common.toml",
+            "MD5": "8a3bc497c1c3d671a1ce65ddb241f4b3",
+            "path": "config/disablestructures-common.toml"
+          }
+        },
+        {
+          "id": "dungeons_enhanced-common.toml",
+          "name": "dungeons_enhanced-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 12634,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/dungeons_enhanced-common.toml",
+            "MD5": "ded6016c4598da987c28178cac5e9c4d",
+            "path": "config/dungeons_enhanced-common.toml"
+          }
+        },
+        {
+          "id": "dungeons_plus-common.toml",
+          "name": "dungeons_plus-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1474,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/dungeons_plus-common.toml",
+            "MD5": "cb640131c5e1031db01c262fd4c12160",
+            "path": "config/dungeons_plus-common.toml"
+          }
+        },
+        {
+          "id": "ecologics-common.toml",
+          "name": "ecologics-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 519,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/ecologics-common.toml",
+            "MD5": "8c8b36696c72945a7026e96ee82365ae",
+            "path": "config/ecologics-common.toml"
+          }
+        },
+        {
+          "id": "enchdesc.json",
+          "name": "enchdesc.json",
+          "type": "File",
+          "artifact": {
+            "size": 189,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/enchdesc.json",
+            "MD5": "1b3ec4850780b441c72be140fc73bce3",
+            "path": "config/enchdesc.json"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1019,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/entityculling.json",
+            "MD5": "302e699b13ea91b9e952be98d5088465",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "farmersdelight-client.toml",
+          "name": "farmersdelight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/farmersdelight-client.toml",
+            "MD5": "b00b8b023174e9f208b0a7649c87ad7b",
+            "path": "config/farmersdelight-client.toml"
+          }
+        },
+        {
+          "id": "farmersdelight-common.toml",
+          "name": "farmersdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4425,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/farmersdelight-common.toml",
+            "MD5": "2bc1ea7735b59593a404ae54a4602a61",
+            "path": "config/farmersdelight-common.toml"
+          }
+        },
+        {
+          "id": "ferritecore-mixin.toml",
+          "name": "ferritecore-mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1516,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/ferritecore-mixin.toml",
+            "MD5": "7e618602075b37414e1dbe001109c7c6",
+            "path": "config/ferritecore-mixin.toml"
+          }
+        },
+        {
+          "id": "finsandtails-common.toml",
+          "name": "finsandtails-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2814,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/finsandtails-common.toml",
+            "MD5": "d1b9ae0e8a9344a0756b6601c56eb3cd",
+            "path": "config/finsandtails-common.toml"
+          }
+        },
+        {
+          "id": "fishofthieves.json",
+          "name": "fishofthieves.json",
+          "type": "File",
+          "artifact": {
+            "size": 1092,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/fishofthieves.json",
+            "MD5": "ee2257c0f86391e90993b271cec784ae",
+            "path": "config/fishofthieves.json"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1147,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/fml.toml",
+            "MD5": "69de99a0b6537f52ae3c9c239d7f0e42",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1628,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "gamble-common.toml",
+          "name": "gamble-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 316,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/gamble-common.toml",
+            "MD5": "433ba47d279c35d1163846779acc5f9c",
+            "path": "config/gamble-common.toml"
+          }
+        },
+        {
+          "id": "harderspawners-common.toml",
+          "name": "harderspawners-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1839,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/harderspawners-common.toml",
+            "MD5": "abe8f2cd410ed28784120d9a5ce75784",
+            "path": "config/harderspawners-common.toml"
+          }
+        },
+        {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 1565,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/lang/en_us.json",
+            "MD5": "ab1f120d0d3ac24fd9c8a75dee6bd7a5",
+            "path": "config/hordes/assets/hordes/lang/en_us.json"
+          }
+        },
+        {
+          "id": "ru_ru.json",
+          "name": "ru_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 2049,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/lang/ru_ru.json",
+            "MD5": "7663c080efd258b0e3c3f1337f4d08be",
+            "path": "config/hordes/assets/hordes/lang/ru_ru.json"
+          }
+        },
+        {
+          "id": "horde_spawn.ogg",
+          "name": "horde_spawn.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 54899,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/sounds/horde_spawn.ogg",
+            "MD5": "458e92d8b7393454cfff5aa3775f3348",
+            "path": "config/hordes/assets/hordes/sounds/horde_spawn.ogg"
+          }
+        },
+        {
+          "id": "sounds.json",
+          "name": "sounds.json",
+          "type": "File",
+          "artifact": {
+            "size": 567,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/sounds.json",
+            "MD5": "f7fcd315cb3fd21834c034cd592c2c17",
+            "path": "config/hordes/assets/hordes/sounds.json"
+          }
+        },
+        {
+          "id": "drowned_player_outer_layer.png",
+          "name": "drowned_player_outer_layer.png",
+          "type": "File",
+          "artifact": {
+            "size": 4199,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/layer/drowned_player_outer_layer.png",
+            "MD5": "2c4e9a2df478157e15935b99ce08d5bc",
+            "path": "config/hordes/assets/hordes/textures/entity/layer/drowned_player_outer_layer.png"
+          }
+        },
+        {
+          "id": "husk_player_outer_layer.png",
+          "name": "husk_player_outer_layer.png",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/layer/husk_player_outer_layer.png",
+            "MD5": "a0176a4b663227760d2941f9755000f8",
+            "path": "config/hordes/assets/hordes/textures/entity/layer/husk_player_outer_layer.png"
+          }
+        },
+        {
+          "id": "zombie_player_outer_layer.png",
+          "name": "zombie_player_outer_layer.png",
+          "type": "File",
+          "artifact": {
+            "size": 6208,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/layer/zombie_player_outer_layer.png",
+            "MD5": "82dcd79f9be8d037cd9029dff702139e",
+            "path": "config/hordes/assets/hordes/textures/entity/layer/zombie_player_outer_layer.png"
+          }
+        },
+        {
+          "id": "zombie_evoker.png",
+          "name": "zombie_evoker.png",
+          "type": "File",
+          "artifact": {
+            "size": 1927,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_evoker.png",
+            "MD5": "956dc13d25a512b4f5050a6461b5b6fd",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_evoker.png"
+          }
+        },
+        {
+          "id": "zombie_illusioner.png",
+          "name": "zombie_illusioner.png",
+          "type": "File",
+          "artifact": {
+            "size": 2475,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_illusioner.png",
+            "MD5": "c8cd15ad9eb2967a5524b42998bfd83a",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_illusioner.png"
+          }
+        },
+        {
+          "id": "zombie_pillager.png",
+          "name": "zombie_pillager.png",
+          "type": "File",
+          "artifact": {
+            "size": 2169,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_pillager.png",
+            "MD5": "841e8710e4ff1c448ef0aee8fa92eb8e",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_pillager.png"
+          }
+        },
+        {
+          "id": "zombie_vindicator.png",
+          "name": "zombie_vindicator.png",
+          "type": "File",
+          "artifact": {
+            "size": 2140,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_vindicator.png",
+            "MD5": "1494775f61da7222198efeec0fe3e694",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_vindicator.png"
+          }
+        },
+        {
+          "id": "zombie_wandering_trader.png",
+          "name": "zombie_wandering_trader.png",
+          "type": "File",
+          "artifact": {
+            "size": 2378,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_wandering_trader.png",
+            "MD5": "202e48c0fc05b86602755e3cbb518b53",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_wandering_trader.png"
+          }
+        },
+        {
+          "id": "zombie_witch.png",
+          "name": "zombie_witch.png",
+          "type": "File",
+          "artifact": {
+            "size": 2422,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_witch.png",
+            "MD5": "798e020f95f64cdcf5ae6f05dad9635c",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_witch.png"
+          }
+        },
+        {
+          "id": "zombified_piglin_brute.png",
+          "name": "zombified_piglin_brute.png",
+          "type": "File",
+          "artifact": {
+            "size": 3707,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombified_piglin_brute.png",
+            "MD5": "2d6b57d8f66a7ed2db57f5546936206d",
+            "path": "config/hordes/assets/hordes/textures/entity/zombified_piglin_brute.png"
+          }
+        },
+        {
+          "id": "cure_list.png",
+          "name": "cure_list.png",
+          "type": "File",
+          "artifact": {
+            "size": 913,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/gui/jei/cure_list.png",
+            "MD5": "5bdf4220e60bc13e83be7d59907a5f32",
+            "path": "config/hordes/assets/hordes/textures/gui/jei/cure_list.png"
+          }
+        },
+        {
+          "id": "immunity.png",
+          "name": "immunity.png",
+          "type": "File",
+          "artifact": {
+            "size": 397,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/mob_effect/immunity.png",
+            "MD5": "c4b9b1585b74a8e42990ca58f94207d7",
+            "path": "config/hordes/assets/hordes/textures/mob_effect/immunity.png"
+          }
+        },
+        {
+          "id": "infected.png",
+          "name": "infected.png",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/mob_effect/infected.png",
+            "MD5": "7c66fe80c8672c0e8b214d2ae9dec51c",
+            "path": "config/hordes/assets/hordes/textures/mob_effect/infected.png"
+          }
+        },
+        {
+          "id": "infected.png.mcmeta",
+          "name": "infected.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 76,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/assets/hordes/textures/mob_effect/infected.png.mcmeta",
+            "MD5": "7c11a8c3228617a8824b20d297493b79",
+            "path": "config/hordes/assets/hordes/textures/mob_effect/infected.png.mcmeta"
+          }
+        },
+        {
+          "id": "immune_wearables.json",
+          "name": "immune_wearables.json",
+          "type": "File",
+          "artifact": {
+            "size": 1774,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/horde_data/immune_wearables.json",
+            "MD5": "1e4bdee53af839f3c6200134a1671840",
+            "path": "config/hordes/data/hordes/horde_data/immune_wearables.json"
+          }
+        },
+        {
+          "id": "immunity_items.json",
+          "name": "immunity_items.json",
+          "type": "File",
+          "artifact": {
+            "size": 78,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/horde_data/immunity_items.json",
+            "MD5": "93552d2f89711afb1a27357e5f1b0939",
+            "path": "config/hordes/data/hordes/horde_data/immunity_items.json"
+          }
+        },
+        {
+          "id": "infection_conversions.json",
+          "name": "infection_conversions.json",
+          "type": "File",
+          "artifact": {
+            "size": 2419,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/horde_data/infection_conversions.json",
+            "MD5": "705a234dea3d209812edf349849853c6",
+            "path": "config/hordes/data/hordes/horde_data/infection_conversions.json"
+          }
+        },
+        {
+          "id": "default.json",
+          "name": "default.json",
+          "type": "File",
+          "artifact": {
+            "size": 1082,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/horde_data/scripts/default.json",
+            "MD5": "e4ec9e412ac524cae8a34b505ddce2eb",
+            "path": "config/hordes/data/hordes/horde_data/scripts/default.json"
+          }
+        },
+        {
+          "id": "default.json",
+          "name": "default.json",
+          "type": "File",
+          "artifact": {
+            "size": 483,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/horde_data/tables/default.json",
+            "MD5": "3dab3f2ff75feca7585b57fe3811c946",
+            "path": "config/hordes/data/hordes/horde_data/tables/default.json"
+          }
+        },
+        {
+          "id": "drowned.json",
+          "name": "drowned.json",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/horde_data/tables/drowned.json",
+            "MD5": "fca5cca4c9381cb5dac1af7629c91173",
+            "path": "config/hordes/data/hordes/horde_data/tables/drowned.json"
+          }
+        },
+        {
+          "id": "illagers.json",
+          "name": "illagers.json",
+          "type": "File",
+          "artifact": {
+            "size": 859,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/horde_data/tables/illagers.json",
+            "MD5": "113b12a0137a388b23a1717cf72798da",
+            "path": "config/hordes/data/hordes/horde_data/tables/illagers.json"
+          }
+        },
+        {
+          "id": "mixed_mobs.json",
+          "name": "mixed_mobs.json",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/horde_data/tables/mixed_mobs.json",
+            "MD5": "b46f28c0d2975abd1daf3036488fc002",
+            "path": "config/hordes/data/hordes/horde_data/tables/mixed_mobs.json"
+          }
+        },
+        {
+          "id": "skeletons.json",
+          "name": "skeletons.json",
+          "type": "File",
+          "artifact": {
+            "size": 601,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/horde_data/tables/skeletons.json",
+            "MD5": "f1a1e1db94ebeac41329a74b5f61a8bf",
+            "path": "config/hordes/data/hordes/horde_data/tables/skeletons.json"
+          }
+        },
+        {
+          "id": "infection_entities.json",
+          "name": "infection_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 281,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/tags/entity_types/infection_entities.json",
+            "MD5": "97862491f23f9d1b89d39143f73b1f19",
+            "path": "config/hordes/data/hordes/tags/entity_types/infection_entities.json"
+          }
+        },
+        {
+          "id": "infection_cures.json",
+          "name": "infection_cures.json",
+          "type": "File",
+          "artifact": {
+            "size": 116,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/tags/items/infection_cures.json",
+            "MD5": "ed074b01c822974569d960a994756479",
+            "path": "config/hordes/data/hordes/tags/items/infection_cures.json"
+          }
+        },
+        {
+          "id": "husk_player_spawn_biomes.json",
+          "name": "husk_player_spawn_biomes.json",
+          "type": "File",
+          "artifact": {
+            "size": 100,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/data/hordes/tags/worldgen/biome/husk_player_spawn_biomes.json",
+            "MD5": "ee29a27bae0f6e97e63caa7a7fec17fe",
+            "path": "config/hordes/data/hordes/tags/worldgen/biome/husk_player_spawn_biomes.json"
+          }
+        },
+        {
+          "id": "hordes-info.json",
+          "name": "hordes-info.json",
+          "type": "File",
+          "artifact": {
+            "size": 489,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/hordes-info.json",
+            "MD5": "e460ecfc878581ba73c0bb5e53116d82",
+            "path": "config/hordes/hordes-info.json"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes/pack.mcmeta",
+            "MD5": "2ed28287f3096dc731c763e2871d82dc",
+            "path": "config/hordes/pack.mcmeta"
+          }
+        },
+        {
+          "id": "hordes-client.toml",
+          "name": "hordes-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1470,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes-client.toml",
+            "MD5": "454b91e97769ee9a6c2d425c90c4a8d4",
+            "path": "config/hordes-client.toml"
+          }
+        },
+        {
+          "id": "hordes-common.toml",
+          "name": "hordes-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5413,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/hordes-common.toml",
+            "MD5": "2962383caa03762198a81ec87cfdb8e2",
+            "path": "config/hordes-common.toml"
+          }
+        },
+        {
+          "id": "breakevents.json",
+          "name": "breakevents.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/breakevents.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/breakevents.json"
+          }
+        },
+        {
+          "id": "effects.json",
+          "name": "effects.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/effects.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/effects.json"
+          }
+        },
+        {
+          "id": "events.json",
+          "name": "events.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/events.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/events.json"
+          }
+        },
+        {
+          "id": "experience.json",
+          "name": "experience.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/experience.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/experience.json"
+          }
+        },
+        {
+          "id": "leftclicks.json",
+          "name": "leftclicks.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/leftclicks.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/leftclicks.json"
+          }
+        },
+        {
+          "id": "loot.json",
+          "name": "loot.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/loot.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/loot.json"
+          }
+        },
+        {
+          "id": "phases.json",
+          "name": "phases.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/phases.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/phases.json"
+          }
+        },
+        {
+          "id": "placeevents.json",
+          "name": "placeevents.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/placeevents.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/placeevents.json"
+          }
+        },
+        {
+          "id": "rightclicks.json",
+          "name": "rightclicks.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/rightclicks.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/rightclicks.json"
+          }
+        },
+        {
+          "id": "spawn.json",
+          "name": "spawn.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/spawn.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/spawn.json"
+          }
+        },
+        {
+          "id": "spawner.json",
+          "name": "spawner.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/spawner.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/spawner.json"
+          }
+        },
+        {
+          "id": "summonaid.json",
+          "name": "summonaid.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/incontrol/summonaid.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/incontrol/summonaid.json"
+          }
+        },
+        {
+          "id": "villager-trading-config.json",
+          "name": "villager-trading-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 1177,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/inventoryprofilesnext/175.112.128.114/villager-trading-config.json",
+            "MD5": "de09544857b72ba08fecdf74c26cbdb9",
+            "path": "config/inventoryprofilesnext/175.112.128.114/villager-trading-config.json"
+          }
+        },
+        {
+          "id": "exampleIntegrationHints.json",
+          "name": "exampleIntegrationHints.json",
+          "type": "File",
+          "artifact": {
+            "size": 1450,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+            "MD5": "1a018549a3d0f945870f75056ce7e5eb",
+            "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
+          }
+        },
+        {
+          "id": "inventoryprofiles.json",
+          "name": "inventoryprofiles.json",
+          "type": "File",
+          "artifact": {
+            "size": 57,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/inventoryprofilesnext/inventoryprofiles.json",
+            "MD5": "ded1b91df09ec5b73e628db72a184fa5",
+            "path": "config/inventoryprofilesnext/inventoryprofiles.json"
+          }
+        },
+        {
+          "id": "villager-trading-config.json",
+          "name": "villager-trading-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 1177,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/inventoryprofilesnext/villager-trading-config.json",
+            "MD5": "de09544857b72ba08fecdf74c26cbdb9",
+            "path": "config/inventoryprofilesnext/villager-trading-config.json"
+          }
+        },
+        {
+          "id": "hide-blocks.json",
+          "name": "hide-blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 191,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jade/hide-blocks.json",
+            "MD5": "da56a1383649dd1ebbbf41d9cfddb0da",
+            "path": "config/jade/hide-blocks.json"
+          }
+        },
+        {
+          "id": "hide-entities.json",
+          "name": "hide-entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 325,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jade/hide-entities.json",
+            "MD5": "7b674db14cfdc978fa9786641eec8df6",
+            "path": "config/jade/hide-entities.json"
+          }
+        },
+        {
+          "id": "jade.json",
+          "name": "jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 974,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jade/jade.json",
+            "MD5": "bfdbc8df70932e88399bd6c039163be0",
+            "path": "config/jade/jade.json"
+          }
+        },
+        {
+          "id": "plugins.json",
+          "name": "plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 1680,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jade/plugins.json",
+            "MD5": "17a70ddaba3dfe5fd9be59d881944a2f",
+            "path": "config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "sort-order.json",
+          "name": "sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 1517,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jade/sort-order.json",
+            "MD5": "0fbad86b00df74e87c1c039af71f236d",
+            "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "blacklist.cfg",
+          "name": "blacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jei/blacklist.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/jei/blacklist.cfg"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 440,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "986da83971ca3bfd9ba1d2c72d0b7522",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "9256ba0b170fac4934f83a4e789d14a8",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 7991,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "81c1f04ca66332819d0805e5323f3e4a",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1338,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "54322062602d3aabb6b11455e07de765",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 918,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "4dd10e2f07441d4820fe65e804aac24c",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 463,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "457dca8722dc66e695196c24fba7875f",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 434,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "097d9e2b6181f2d37456b6793a9f21fa",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "koreanpatch.json5",
+          "name": "koreanpatch.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1513,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/koreanpatch.json5",
+            "MD5": "db57d63145cae2aa9d67e8b160151008",
+            "path": "config/koreanpatch.json5"
+          }
+        },
+        {
+          "id": "libraryferret_1.properties",
+          "name": "libraryferret_1.properties",
+          "type": "File",
+          "artifact": {
+            "size": 193,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/libraryferret_1.properties",
+            "MD5": "3600150abd0fcebc3bef44c7fdb23b81",
+            "path": "config/libraryferret_1.properties"
+          }
+        },
+        {
+          "id": "modelfix-client.toml",
+          "name": "modelfix-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1292,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/modelfix-client.toml",
+            "MD5": "10cf9915471b088d48e55407ced32c3d",
+            "path": "config/modelfix-client.toml"
+          }
+        },
+        {
+          "id": "modernfix-common.toml",
+          "name": "modernfix-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 107,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/modernfix-common.toml",
+            "MD5": "1d50de2e9c0bda2952844de7a3306d10",
+            "path": "config/modernfix-common.toml"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5062,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/modernfix-mixins.properties",
+            "MD5": "266ec1fc617ce31d052ae698c02df0e5",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "moonlight-client.toml",
+          "name": "moonlight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1018,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/moonlight-client.toml",
+            "MD5": "1217edc0dc4632434d9ed771ad85626f",
+            "path": "config/moonlight-client.toml"
+          }
+        },
+        {
+          "id": "moonlight-common.toml",
+          "name": "moonlight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/moonlight-common.toml",
+            "MD5": "81051bcc2cf1bedf378224b0a93e2877",
+            "path": "config/moonlight-common.toml"
+          }
+        },
+        {
+          "id": "musketmod.txt",
+          "name": "musketmod.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2186,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/musketmod.txt",
+            "MD5": "816435cf284df17640d214d94372486b",
+            "path": "config/musketmod.txt"
+          }
+        },
+        {
+          "id": "advanced_options.json",
+          "name": "advanced_options.json",
+          "type": "File",
+          "artifact": {
+            "size": 177,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/openloader/advanced_options.json",
+            "MD5": "01c2e94c2404666f120a9568bec49673",
+            "path": "config/openloader/advanced_options.json"
+          }
+        },
+        {
+          "id": "PillagersGun-common.toml",
+          "name": "PillagersGun-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/PillagersGun-common.toml",
+            "MD5": "71968b8b0cbe379b70ec49f112905724",
+            "path": "config/PillagersGun-common.toml"
+          }
+        },
+        {
+          "id": "resourceful-config-web.json",
+          "name": "resourceful-config-web.json",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/resourceful-config-web.json",
+            "MD5": "5f262545d9d5593392eff2f82bee4d52",
+            "path": "config/resourceful-config-web.json"
+          }
+        },
+        {
+          "id": "saturn-optimizations.toml",
+          "name": "saturn-optimizations.toml",
+          "type": "File",
+          "artifact": {
+            "size": 445,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/saturn-optimizations.toml",
+            "MD5": "3a1e6e595475f3fedd3a9a6307c8ec84",
+            "path": "config/saturn-optimizations.toml"
+          }
+        },
+        {
+          "id": "scuba_gear-common.toml",
+          "name": "scuba_gear-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 202,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/scuba_gear-common.toml",
+            "MD5": "6949a88dd337a13ead5200adf56860bf",
+            "path": "config/scuba_gear-common.toml"
+          }
+        },
+        {
+          "id": "smoothboot.json",
+          "name": "smoothboot.json",
+          "type": "File",
+          "artifact": {
+            "size": 198,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/smoothboot.json",
+            "MD5": "70ffc7bd8c3159c1675727386fcea810",
+            "path": "config/smoothboot.json"
+          }
+        },
+        {
+          "id": "smoothchunk.json",
+          "name": "smoothchunk.json",
+          "type": "File",
+          "artifact": {
+            "size": 275,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/smoothchunk.json",
+            "MD5": "0e62dcb7f16f5d186faf726150774671",
+            "path": "config/smoothchunk.json"
+          }
+        },
+        {
+          "id": "sparsestructures.json5",
+          "name": "sparsestructures.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1279,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/sparsestructures.json5",
+            "MD5": "a3bab7d66dc51c47daba165554e41e5b",
+            "path": "config/sparsestructures.json5"
+          }
+        },
+        {
+          "id": "structureessentials.json",
+          "name": "structureessentials.json",
+          "type": "File",
+          "artifact": {
+            "size": 915,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/structureessentials.json",
+            "MD5": "4219d75a6cdee67ccc0095c4d7789ebb",
+            "path": "config/structureessentials.json"
+          }
+        },
+        {
+          "id": "structure_gel-client.toml",
+          "name": "structure_gel-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 271,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/structure_gel-client.toml",
+            "MD5": "db948fdb477eab3e8ede8e0e31a86028",
+            "path": "config/structure_gel-client.toml"
+          }
+        },
+        {
+          "id": "structure_gel-common.toml",
+          "name": "structure_gel-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 885,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/structure_gel-common.toml",
+            "MD5": "c60355b6d7479726672ed112c72ae19a",
+            "path": "config/structure_gel-common.toml"
+          }
+        },
+        {
+          "id": "terrablender.toml",
+          "name": "terrablender.toml",
+          "type": "File",
+          "artifact": {
+            "size": 552,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/terrablender.toml",
+            "MD5": "1763bac9f3719c03860c25aeba872b0b",
+            "path": "config/terrablender.toml"
+          }
+        },
+        {
+          "id": "travelersbackpack-client.toml",
+          "name": "travelersbackpack-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1118,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/travelersbackpack-client.toml",
+            "MD5": "9af7d1795176031ca847712a834702d3",
+            "path": "config/travelersbackpack-client.toml"
+          }
+        },
+        {
+          "id": "travelersbackpack-common.toml",
+          "name": "travelersbackpack-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 201,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/travelersbackpack-common.toml",
+            "MD5": "83f7b19c4d4c0c0a2cafb0975416e3d0",
+            "path": "config/travelersbackpack-common.toml"
+          }
+        },
+        {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/xaerominimap-common.txt",
+            "MD5": "c4bb2d96ebd8182b307ef6b2fda27370",
+            "path": "config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3640,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/xaerominimap.txt",
+            "MD5": "34daf6ed281f10d3aa9d1f916c51d7dc",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/xaerominimap_entities.json",
+            "MD5": "9c08ddf57ca870f128b7671da8fbd0f7",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/xaeropatreon.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/yacl.json5",
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "zeta-common.toml",
+          "name": "zeta-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1912,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/zeta-common.toml",
+            "MD5": "38b8f978628d549cee47816b1cf5f409",
+            "path": "config/zeta-common.toml"
+          }
+        },
+        {
+          "id": "zillagersweararmor-client.toml",
+          "name": "zillagersweararmor-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/zillagersweararmor-client.toml",
+            "MD5": "aec96de95605d14a0721f4c42a37d43e",
+            "path": "config/zillagersweararmor-client.toml"
+          }
+        },
+        {
+          "id": "zillagersweararmor-common.toml",
+          "name": "zillagersweararmor-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 917,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/zillagersweararmor-common.toml",
+            "MD5": "24c31f8c43a8a014b5019da81ea0e284",
+            "path": "config/zillagersweararmor-common.toml"
+          }
+        },
+        {
+          "id": "zslotmachine-common.toml",
+          "name": "zslotmachine-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2392,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/config/zslotmachine-common.toml",
+            "MD5": "7ae49951e02ad6ef80afa39888886a04",
+            "path": "config/zslotmachine-common.toml"
+          }
+        },
+        {
+          "id": "adorabuild-structures-2.8.0-forge-1.20.1.jar",
+          "name": "adorabuild-structures-2.8.0-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 617050,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/adorabuild-structures-2.8.0-forge-1.20.1.jar",
+            "MD5": "08f9cd5d618b169eeeb9a0374e7e1117",
+            "path": "mods/adorabuild-structures-2.8.0-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "AI-Improvements-1.20-0.5.2.jar",
+          "name": "AI-Improvements-1.20-0.5.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29553,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/AI-Improvements-1.20-0.5.2.jar",
+            "MD5": "9a6776ce2deab597d198e8755daa56ff",
+            "path": "mods/AI-Improvements-1.20-0.5.2.jar"
+          }
+        },
+        {
+          "id": "alexsdelight-1.5.jar",
+          "name": "alexsdelight-1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 55398,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/alexsdelight-1.5.jar",
+            "MD5": "b969e136e1f9a70c42dd102ed8359b40",
+            "path": "mods/alexsdelight-1.5.jar"
+          }
+        },
+        {
+          "id": "alexsmobs-1.22.9.jar",
+          "name": "alexsmobs-1.22.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 26350793,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6",
+            "path": "mods/alexsmobs-1.22.9.jar"
+          }
+        },
+        {
+          "id": "amendments-1.20-1.2.12.jar",
+          "name": "amendments-1.20-1.2.12.jar",
+          "type": "File",
+          "artifact": {
+            "size": 995893,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/amendments-1.20-1.2.12.jar",
+            "MD5": "164d0d403dfb18d1ba6a0d16dbb5505d",
+            "path": "mods/amendments-1.20-1.2.12.jar"
+          }
+        },
+        {
+          "id": "antiquetradingship-1.3.0 Forge 1.20.1.jar",
+          "name": "antiquetradingship-1.3.0 Forge 1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23594,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/antiquetradingship-1.3.0%20Forge%201.20.1.jar",
+            "MD5": "463fb5727eb5b3e55b635b51b2d180dd",
+            "path": "mods/antiquetradingship-1.3.0 Forge 1.20.1.jar"
+          }
+        },
+        {
+          "id": "AnvilNeverTooExpensive-1.20.1-1.1.jar",
+          "name": "AnvilNeverTooExpensive-1.20.1-1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7903,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/AnvilNeverTooExpensive-1.20.1-1.1.jar",
+            "MD5": "48fc878b45fc4d80c6c80b862744c0c9",
+            "path": "mods/AnvilNeverTooExpensive-1.20.1-1.1.jar"
+          }
+        },
+        {
+          "id": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "name": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47428,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953",
+            "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar"
+          }
+        },
+        {
+          "id": "Aquaculture-1.20.1-2.5.2.jar",
+          "name": "Aquaculture-1.20.1-2.5.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 601194,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Aquaculture-1.20.1-2.5.2.jar",
+            "MD5": "857dc4f379d52f75fab2ad816709e502",
+            "path": "mods/Aquaculture-1.20.1-2.5.2.jar"
+          }
+        },
+        {
+          "id": "aquaculture_delight_1.0.0_forge_1.20.1.jar",
+          "name": "aquaculture_delight_1.0.0_forge_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 101228,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/aquaculture_delight_1.0.0_forge_1.20.1.jar",
+            "MD5": "d34013de56ec48d2923bb398b6d18e11",
+            "path": "mods/aquaculture_delight_1.0.0_forge_1.20.1.jar"
+          }
+        },
+        {
+          "id": "aquatictorches-1.20.1-forge-1.1.1.jar",
+          "name": "aquatictorches-1.20.1-forge-1.1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18490,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/aquatictorches-1.20.1-forge-1.1.1.jar",
+            "MD5": "a072f9dfe099a3322dff7091034cc293",
+            "path": "mods/aquatictorches-1.20.1-forge-1.1.1.jar"
+          }
+        },
+        {
+          "id": "architectury-9.2.14-forge.jar",
+          "name": "architectury-9.2.14-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 580602,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5",
+            "path": "mods/architectury-9.2.14-forge.jar"
+          }
+        },
+        {
+          "id": "armordamagescale-1.20.1-3.1.jar",
+          "name": "armordamagescale-1.20.1-3.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 110357,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/armordamagescale-1.20.1-3.1.jar",
+            "MD5": "eb0e43bf55e7faa2b530c02d5e1d24c5",
+            "path": "mods/armordamagescale-1.20.1-3.1.jar"
+          }
+        },
+        {
+          "id": "ati_structures(1.20)_v1.1.0_FORGE.jar",
+          "name": "ati_structures(1.20)_v1.1.0_FORGE.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1871997,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/ati_structures(1.20)_v1.1.0_FORGE.jar",
+            "MD5": "6ce3d25a7fbbc8af6714b6a5a9727e91",
+            "path": "mods/ati_structures(1.20)_v1.1.0_FORGE.jar"
+          }
+        },
+        {
+          "id": "Atlas Lib-1.20.1-1.1.12.jar",
+          "name": "Atlas Lib-1.20.1-1.1.12.jar",
+          "type": "File",
+          "artifact": {
+            "size": 124436,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Atlas%20Lib-1.20.1-1.1.12.jar",
+            "MD5": "b63616d984991ee60d313938143eda3f",
+            "path": "mods/Atlas Lib-1.20.1-1.1.12.jar"
+          }
+        },
+        {
+          "id": "AttributeFix-Forge-1.20.1-21.0.4.jar",
+          "name": "AttributeFix-Forge-1.20.1-21.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19471,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/AttributeFix-Forge-1.20.1-21.0.4.jar",
+            "MD5": "e8fb517833e21335106e9d4d1a39ecd4",
+            "path": "mods/AttributeFix-Forge-1.20.1-21.0.4.jar"
+          }
+        },
+        {
+          "id": "awesomedungeonocean-forge-1.20.1-3.3.0.jar",
+          "name": "awesomedungeonocean-forge-1.20.1-3.3.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 297321,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/awesomedungeonocean-forge-1.20.1-3.3.0.jar",
+            "MD5": "8cf9bfaa469269a866806a7e7d9bdf48",
+            "path": "mods/awesomedungeonocean-forge-1.20.1-3.3.0.jar"
+          }
+        },
+        {
+          "id": "BadMobs-1.20.1-19.0.4.jar",
+          "name": "BadMobs-1.20.1-19.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10425,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/BadMobs-1.20.1-19.0.4.jar",
+            "MD5": "c82edfea81516b7f8c9607ad5b2f75d6",
+            "path": "mods/BadMobs-1.20.1-19.0.4.jar"
+          }
+        },
+        {
+          "id": "benssharks-1.2.4.9-forge-1.20.1.jar",
+          "name": "benssharks-1.2.4.9-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 952476,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/benssharks-1.2.4.9-forge-1.20.1.jar",
+            "MD5": "f295c2ab39109ccb84861768ae7609fb",
+            "path": "mods/benssharks-1.2.4.9-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
+          "name": "BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 98123,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
+            "MD5": "8262a6a70e233f49b643b99726a689f5",
+            "path": "mods/BetterAdvancements-Forge-1.20.1-0.4.2.10.jar"
+          }
+        },
+        {
+          "id": "BetterCopper 1.20.1 -1.2.jar",
+          "name": "BetterCopper 1.20.1 -1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 105724,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/BetterCopper%201.20.1%20-1.2.jar",
+            "MD5": "b44af11c8f7a3df0e148a9cdc149abff",
+            "path": "mods/BetterCopper 1.20.1 -1.2.jar"
+          }
+        },
+        {
+          "id": "BetterTags-1.20.1-1.1.jar.disabled",
+          "name": "BetterTags-1.20.1-1.1.jar.disabled",
+          "type": "File",
+          "artifact": {
+            "size": 138899,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/BetterTags-1.20.1-1.1.jar.disabled",
+            "MD5": "4aeb00a3164d4172ec5368c0e19a0aa8",
+            "path": "mods/BetterTags-1.20.1-1.1.jar.disabled"
+          }
+        },
+        {
+          "id": "BetterTridents-v8.0.1-1.20.1-Forge.jar",
+          "name": "BetterTridents-v8.0.1-1.20.1-Forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 89292,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/BetterTridents-v8.0.1-1.20.1-Forge.jar",
+            "MD5": "c5ebdc186bb24ed16e599e29fba237f0",
+            "path": "mods/BetterTridents-v8.0.1-1.20.1-Forge.jar"
+          }
+        },
+        {
+          "id": "biomespawnpoint-1.20.1-2.3.jar",
+          "name": "biomespawnpoint-1.20.1-2.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 36804,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/biomespawnpoint-1.20.1-2.3.jar",
+            "MD5": "3ed401346235fa98618e4c64dea46a91",
+            "path": "mods/biomespawnpoint-1.20.1-2.3.jar"
+          }
+        },
+        {
+          "id": "biome_replacer-1.2-forge.jar",
+          "name": "biome_replacer-1.2-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 43778,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/biome_replacer-1.2-forge.jar",
+            "MD5": "d3a3a210f9527ff8b0c80d63e99275bb",
+            "path": "mods/biome_replacer-1.2-forge.jar"
+          }
+        },
+        {
+          "id": "blueprint-1.20.1-7.1.0.jar",
+          "name": "blueprint-1.20.1-7.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1141553,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/blueprint-1.20.1-7.1.0.jar",
+            "MD5": "83f35ee21c8d632edde3f1cf650329a7",
+            "path": "mods/blueprint-1.20.1-7.1.0.jar"
+          }
+        },
+        {
+          "id": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+          "name": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 343962,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Bookshelf-Forge-1.20.1-20.2.13.jar",
+            "MD5": "46c8e7f9bcfa984bd576e448df2beb25",
+            "path": "mods/Bookshelf-Forge-1.20.1-20.2.13.jar"
+          }
+        },
+        {
+          "id": "bountiful_critters-1.3.2.jar",
+          "name": "bountiful_critters-1.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21428933,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/bountiful_critters-1.3.2.jar",
+            "MD5": "f038b2cc73306563b4829135a32eec39",
+            "path": "mods/bountiful_critters-1.3.2.jar"
+          }
+        },
+        {
+          "id": "citadel-2.6.0-1.20.1.jar",
+          "name": "citadel-2.6.0-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3173174,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/citadel-2.6.0-1.20.1.jar",
+            "MD5": "86b18b35ee8f10b1f45bda02345792cd",
+            "path": "mods/citadel-2.6.0-1.20.1.jar"
+          }
+        },
+        {
+          "id": "cloth-config-11.1.136-forge.jar",
+          "name": "cloth-config-11.1.136-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53",
+            "path": "mods/cloth-config-11.1.136-forge.jar"
+          }
+        },
+        {
+          "id": "Clumps-forge-1.20.1-12.0.0.4.jar",
+          "name": "Clumps-forge-1.20.1-12.0.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20299,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975",
+            "path": "mods/Clumps-forge-1.20.1-12.0.0.4.jar"
+          }
+        },
+        {
+          "id": "collective-1.20.1-7.87.jar",
+          "name": "collective-1.20.1-7.87.jar",
+          "type": "File",
+          "artifact": {
+            "size": 648876,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/collective-1.20.1-7.87.jar",
+            "MD5": "b0bcc1d5e282bab76d0f8f39a85a1a92",
+            "path": "mods/collective-1.20.1-7.87.jar"
+          }
+        },
+        {
+          "id": "configured-forge-1.20.1-2.2.3.jar",
+          "name": "configured-forge-1.20.1-2.2.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 418929,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/configured-forge-1.20.1-2.2.3.jar",
+            "MD5": "9380dc31c599c523a5682a4025fceb92",
+            "path": "mods/configured-forge-1.20.1-2.2.3.jar"
+          }
+        },
+        {
+          "id": "Controlling-forge-1.20.1-12.0.2.jar",
+          "name": "Controlling-forge-1.20.1-12.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 115280,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Controlling-forge-1.20.1-12.0.2.jar",
+            "MD5": "952274bc9994bba9733e8747558f73fa",
+            "path": "mods/Controlling-forge-1.20.1-12.0.2.jar"
+          }
+        },
+        {
+          "id": "cupboard-1.20.1-2.7.jar",
+          "name": "cupboard-1.20.1-2.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25983,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/cupboard-1.20.1-2.7.jar",
+            "MD5": "3620912474f47bf58d1fe5bfe133763a",
+            "path": "mods/cupboard-1.20.1-2.7.jar"
+          }
+        },
+        {
+          "id": "curios-forge-5.11.0+1.20.1.jar",
+          "name": "curios-forge-5.11.0+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 389988,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/curios-forge-5.11.0+1.20.1.jar",
+            "MD5": "9d752b17b0e6d1e9cfe3ea3a230aaba1",
+            "path": "mods/curios-forge-5.11.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "DisableStructures-1.20.1-1.0.1.jar",
+          "name": "DisableStructures-1.20.1-1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9912,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/DisableStructures-1.20.1-1.0.1.jar",
+            "MD5": "fe060e6798cff2a8069d37cf5d906d83",
+            "path": "mods/DisableStructures-1.20.1-1.0.1.jar"
+          }
+        },
+        {
+          "id": "DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
+          "name": "DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 248169,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
+            "MD5": "7438cb3ec55972c670e83effa52f8668",
+            "path": "mods/DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar"
+          }
+        },
+        {
+          "id": "dungeons_enhanced-1.20.1-5.2.2.jar",
+          "name": "dungeons_enhanced-1.20.1-5.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1270120,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/dungeons_enhanced-1.20.1-5.2.2.jar",
+            "MD5": "843d219bc93d5097167aed34c74acdd1",
+            "path": "mods/dungeons_enhanced-1.20.1-5.2.2.jar"
+          }
+        },
+        {
+          "id": "dungeons_plus-1.20.1-1.5.0.jar",
+          "name": "dungeons_plus-1.20.1-1.5.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1284723,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/dungeons_plus-1.20.1-1.5.0.jar",
+            "MD5": "359e4ba76949abf08d10b8b49cf0cfe2",
+            "path": "mods/dungeons_plus-1.20.1-1.5.0.jar"
+          }
+        },
+        {
+          "id": "Easy Paper 1.0.0 - 1.20.1.jar",
+          "name": "Easy Paper 1.0.0 - 1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 50918,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Easy%20Paper%201.0.0%20-%201.20.1.jar",
+            "MD5": "f5f2ff6010e3fc0af53b4490db70ae57",
+            "path": "mods/Easy Paper 1.0.0 - 1.20.1.jar"
+          }
+        },
+        {
+          "id": "ecologics-forge-1.20.1-2.2.0.jar",
+          "name": "ecologics-forge-1.20.1-2.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1829363,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/ecologics-forge-1.20.1-2.2.0.jar",
+            "MD5": "f68cce5bcbf61751e11bdf38c8366eec",
+            "path": "mods/ecologics-forge-1.20.1-2.2.0.jar"
+          }
+        },
+        {
+          "id": "embeddium-0.3.31+mc1.20.1.jar",
+          "name": "embeddium-0.3.31+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7",
+            "path": "mods/embeddium-0.3.31+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+          "name": "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+          "type": "File",
+          "artifact": {
+            "size": 69476,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+            "MD5": "445422556264d2129fde704f35d9680f",
+            "path": "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar"
+          }
+        },
+        {
+          "id": "entityculling-forge-1.7.1-mc1.20.1.jar",
+          "name": "entityculling-forge-1.7.1-mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 72990,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/entityculling-forge-1.7.1-mc1.20.1.jar",
+            "MD5": "ad599f97f17270a1c35e330b3d66bacf",
+            "path": "mods/entityculling-forge-1.7.1-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "FarmersDelight-1.20.1-1.2.5.jar",
+          "name": "FarmersDelight-1.20.1-1.2.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2937836,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/FarmersDelight-1.20.1-1.2.5.jar",
+            "MD5": "a5affe1dbf62a5bed405cdf6533e96a4",
+            "path": "mods/FarmersDelight-1.20.1-1.2.5.jar"
+          }
+        },
+        {
+          "id": "Fastload-Reforged-mc1.20.1-3.4.0.jar",
+          "name": "Fastload-Reforged-mc1.20.1-3.4.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 66989,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Fastload-Reforged-mc1.20.1-3.4.0.jar",
+            "MD5": "3266e638032dc9b957bf1e7372671c05",
+            "path": "mods/Fastload-Reforged-mc1.20.1-3.4.0.jar"
+          }
+        },
+        {
+          "id": "ferritecore-6.0.1-forge.jar",
+          "name": "ferritecore-6.0.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 123034,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383",
+            "path": "mods/ferritecore-6.0.1-forge.jar"
+          }
+        },
+        {
+          "id": "finsandtails-1.20.1-1.1.5.jar",
+          "name": "finsandtails-1.20.1-1.1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3288986,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/finsandtails-1.20.1-1.1.5.jar",
+            "MD5": "a12550cfdbc957a6a1affa6fa66653cd",
+            "path": "mods/finsandtails-1.20.1-1.1.5.jar"
+          }
+        },
+        {
+          "id": "fish_of_thieves-mc1.20.1-v3.0.9-forge.jar",
+          "name": "fish_of_thieves-mc1.20.1-v3.0.9-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1099129,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/fish_of_thieves-mc1.20.1-v3.0.9-forge.jar",
+            "MD5": "e8e824885f4de53287309e84ae2d39e2",
+            "path": "mods/fish_of_thieves-mc1.20.1-v3.0.9-forge.jar"
+          }
+        },
+        {
+          "id": "gamble-1.0.jar",
+          "name": "gamble-1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 45036,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/gamble-1.0.jar",
+            "MD5": "853eadb896b2f1702c5a1c4b50a21ef4",
+            "path": "mods/gamble-1.0.jar"
+          }
+        },
+        {
+          "id": "geckolib-forge-1.20.1-4.8.2.jar",
+          "name": "geckolib-forge-1.20.1-4.8.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1038979,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/geckolib-forge-1.20.1-4.8.2.jar",
+            "MD5": "d1ff73da16b6fc163d6c5ed3d9734dde",
+            "path": "mods/geckolib-forge-1.20.1-4.8.2.jar"
+          }
+        },
+        {
+          "id": "harderspawners-1.20-46.25.3.jar",
+          "name": "harderspawners-1.20-46.25.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 55863,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/harderspawners-1.20-46.25.3.jar",
+            "MD5": "039b56381bc56225d5f8fb6a43b9bcbe",
+            "path": "mods/harderspawners-1.20-46.25.3.jar"
+          }
+        },
+        {
+          "id": "HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar",
+          "name": "HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 630547,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar",
+            "MD5": "cf40810261c3c54d32150133f32f8a06",
+            "path": "mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar"
+          }
+        },
+        {
+          "id": "illagersweararmor-1.20.1-1.4.0.jar",
+          "name": "illagersweararmor-1.20.1-1.4.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 79863,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/illagersweararmor-1.20.1-1.4.0.jar",
+            "MD5": "19373a95344e92ae1c8a562ce61b8466",
+            "path": "mods/illagersweararmor-1.20.1-1.4.0.jar"
+          }
+        },
+        {
+          "id": "illagerwarship-1.0.0 forge 1.20.1.jar",
+          "name": "illagerwarship-1.0.0 forge 1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 39167,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/illagerwarship-1.0.0%20forge%201.20.1.jar",
+            "MD5": "241eb54d31b36f56c34fd8d3d35a31fa",
+            "path": "mods/illagerwarship-1.0.0 forge 1.20.1.jar"
+          }
+        },
+        {
+          "id": "incontrol-1.20-9.2.9.jar",
+          "name": "incontrol-1.20-9.2.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 320455,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/incontrol-1.20-9.2.9.jar",
+            "MD5": "f2d6771782072f071f6c79d9742afadf",
+            "path": "mods/incontrol-1.20-9.2.9.jar"
+          }
+        },
+        {
+          "id": "InventoryProfilesNext-forge-1.20-1.10.14.jar",
+          "name": "InventoryProfilesNext-forge-1.20-1.10.14.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1436499,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/InventoryProfilesNext-forge-1.20-1.10.14.jar",
+            "MD5": "018e61ceffdd71ab5a7e5f8ae8109532",
+            "path": "mods/InventoryProfilesNext-forge-1.20-1.10.14.jar"
+          }
+        },
+        {
+          "id": "Jade-1.20.1-forge-11.11.1.jar",
+          "name": "Jade-1.20.1-forge-11.11.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 547726,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Jade-1.20.1-forge-11.11.1.jar",
+            "MD5": "fafa657e924a26031c174e7ab1484c8e",
+            "path": "mods/Jade-1.20.1-forge-11.11.1.jar"
+          }
+        },
+        {
+          "id": "Jade-1.20.1-Forge-11.12.3.jar",
+          "name": "Jade-1.20.1-Forge-11.12.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 547769,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Jade-1.20.1-Forge-11.12.3.jar",
+            "MD5": "253456fec5b1bd598a7abc12abfee0f5",
+            "path": "mods/Jade-1.20.1-Forge-11.12.3.jar"
+          }
+        },
+        {
+          "id": "jei-1.20.1-forge-15.12.2.51.jar",
+          "name": "jei-1.20.1-forge-15.12.2.51.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1343395,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/jei-1.20.1-forge-15.12.2.51.jar",
+            "MD5": "4500381fa9b095a7d41929fc443c31c1",
+            "path": "mods/jei-1.20.1-forge-15.12.2.51.jar"
+          }
+        },
+        {
+          "id": "jei-1.20.1-forge-15.20.0.112.jar",
+          "name": "jei-1.20.1-forge-15.20.0.112.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1385600,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/jei-1.20.1-forge-15.20.0.112.jar",
+            "MD5": "c899d5b549ace1e9fa46700c778c3809",
+            "path": "mods/jei-1.20.1-forge-15.20.0.112.jar"
+          }
+        },
+        {
+          "id": "journeymap-1.20.1-5.10.3-forge.jar",
+          "name": "journeymap-1.20.1-5.10.3-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7160405,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "2181bd6b7161f06726560b9382235611",
+            "path": "mods/journeymap-1.20.1-5.10.3-forge.jar"
+          }
+        },
+        {
+          "id": "koreanpatch-forge-1.8.2+mc1.20.1.jar",
+          "name": "koreanpatch-forge-1.8.2+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2997869,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/koreanpatch-forge-1.8.2+mc1.20.1.jar",
+            "MD5": "0515dcaababd0ea0b27762e72a91343c",
+            "path": "mods/koreanpatch-forge-1.8.2+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "kotlinforforge-4.11.0-all.jar",
+          "name": "kotlinforforge-4.11.0-all.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7193768,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56",
+            "path": "mods/kotlinforforge-4.11.0-all.jar"
+          }
+        },
+        {
+          "id": "kubejs-forge-2001.6.5-build.16.jar",
+          "name": "kubejs-forge-2001.6.5-build.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1654660,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/kubejs-forge-2001.6.5-build.16.jar",
+            "MD5": "f4c6924bef764748d26ee51e4d4c0b00",
+            "path": "mods/kubejs-forge-2001.6.5-build.16.jar"
+          }
+        },
+        {
+          "id": "Lets_Forge_Pirates_[1_20_1]_3_10_1.jar",
+          "name": "Lets_Forge_Pirates_[1_20_1]_3_10_1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1007346,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Lets_Forge_Pirates_[1_20_1]_3_10_1.jar",
+            "MD5": "d6243cf6a4beded68a6d128b127b8765",
+            "path": "mods/Lets_Forge_Pirates_[1_20_1]_3_10_1.jar"
+          }
+        },
+        {
+          "id": "libIPN-forge-1.20-4.0.2.jar",
+          "name": "libIPN-forge-1.20-4.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 693301,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/libIPN-forge-1.20-4.0.2.jar",
+            "MD5": "ef3a86f4867dba031dd6adef7e45d396",
+            "path": "mods/libIPN-forge-1.20-4.0.2.jar"
+          }
+        },
+        {
+          "id": "libraryferret-forge-1.20.1-4.0.0.jar",
+          "name": "libraryferret-forge-1.20.1-4.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 190536,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/libraryferret-forge-1.20.1-4.0.0.jar",
+            "MD5": "68ba05aaf09f053934537af691e959df",
+            "path": "mods/libraryferret-forge-1.20.1-4.0.0.jar"
+          }
+        },
+        {
+          "id": "lionfishapi-1.9.jar",
+          "name": "lionfishapi-1.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 152910,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/lionfishapi-1.9.jar",
+            "MD5": "e814e31ce3696e38e55dd39c6556d6f7",
+            "path": "mods/lionfishapi-1.9.jar"
+          }
+        },
+        {
+          "id": "lootjs-forge-1.20.1-2.12.0.jar",
+          "name": "lootjs-forge-1.20.1-2.12.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 241907,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/lootjs-forge-1.20.1-2.12.0.jar",
+            "MD5": "6f74c321a57853a86e674bae5d019c3b",
+            "path": "mods/lootjs-forge-1.20.1-2.12.0.jar"
+          }
+        },
+        {
+          "id": "L_Enders_Cataclysm-2.18 - 1.20.1.jar",
+          "name": "L_Enders_Cataclysm-2.18 - 1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 71567064,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/L_Enders_Cataclysm-2.18%20-%201.20.1.jar",
+            "MD5": "37a19a969da1b20ef34f2b5e681e418e",
+            "path": "mods/L_Enders_Cataclysm-2.18 - 1.20.1.jar"
+          }
+        },
+        {
+          "id": "modelfix-1.15.jar",
+          "name": "modelfix-1.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 45246,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/modelfix-1.15.jar",
+            "MD5": "9afd060094be1353e818bd2b7c249cc9",
+            "path": "mods/modelfix-1.15.jar"
+          }
+        },
+        {
+          "id": "modernfix-forge-5.19.5+mc1.20.1.jar",
+          "name": "modernfix-forge-5.19.5+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 778617,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/modernfix-forge-5.19.5+mc1.20.1.jar",
+            "MD5": "23d4aa0c5cdec95eeadf3a6ce12f610f",
+            "path": "mods/modernfix-forge-5.19.5+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "moonlight-1.20-2.13.25-forge.jar",
+          "name": "moonlight-1.20-2.13.25-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1201688,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/moonlight-1.20-2.13.25-forge.jar",
+            "MD5": "3f6f146d71c1f2969eda89270f016b2b",
+            "path": "mods/moonlight-1.20-2.13.25-forge.jar"
+          }
+        },
+        {
+          "id": "musketmod-1.20.1-forge-1.5.4.jar",
+          "name": "musketmod-1.20.1-forge-1.5.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 448661,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/musketmod-1.20.1-forge-1.5.4.jar",
+            "MD5": "7c30ddb03eaa88eb22dbf98680650e3d",
+            "path": "mods/musketmod-1.20.1-forge-1.5.4.jar"
+          }
+        },
+        {
+          "id": "nangman_dive_kit-1.0.2-forge-1.20.1.jar",
+          "name": "nangman_dive_kit-1.0.2-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 72912,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/nangman_dive_kit-1.0.2-forge-1.20.1.jar",
+            "MD5": "e24c607b7a18d1783df470031003038c",
+            "path": "mods/nangman_dive_kit-1.0.2-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "nangman_dive_ore-1.0.3-forge-1.20.1.jar",
+          "name": "nangman_dive_ore-1.0.3-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 84344,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/nangman_dive_ore-1.0.3-forge-1.20.1.jar",
+            "MD5": "05eb3c74ecfd502bef64817b7de374fb",
+            "path": "mods/nangman_dive_ore-1.0.3-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "oceanvillagertrader-2.0.1-forge-1.20.1.jar",
+          "name": "oceanvillagertrader-2.0.1-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 106190,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/oceanvillagertrader-2.0.1-forge-1.20.1.jar",
+            "MD5": "3d40af3d3f6a6902813e11fe3cbea00b",
+            "path": "mods/oceanvillagertrader-2.0.1-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "oculus-mc1.20.1-1.8.0.jar",
+          "name": "oculus-mc1.20.1-1.8.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572",
+            "path": "mods/oculus-mc1.20.1-1.8.0.jar"
+          }
+        },
+        {
+          "id": "OpenLoader-Forge-1.20.1-19.0.4.jar",
+          "name": "OpenLoader-Forge-1.20.1-19.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23938,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/OpenLoader-Forge-1.20.1-19.0.4.jar",
+            "MD5": "e1115843c44e491f45e0b6890c5776cb",
+            "path": "mods/OpenLoader-Forge-1.20.1-19.0.4.jar"
+          }
+        },
+        {
+          "id": "overworldpiglins-1.20.1-1.5.jar",
+          "name": "overworldpiglins-1.20.1-1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 26267,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/overworldpiglins-1.20.1-1.5.jar",
+            "MD5": "cc296404c7343e7905f347476ef69ec6",
+            "path": "mods/overworldpiglins-1.20.1-1.5.jar"
+          }
+        },
+        {
+          "id": "Pillagers Gun-1.20.1-forge-2.0.0.jar",
+          "name": "Pillagers Gun-1.20.1-forge-2.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 263153,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Pillagers%20Gun-1.20.1-forge-2.0.0.jar",
+            "MD5": "d1462448a5535a53a8e897e0faaca0f9",
+            "path": "mods/Pillagers Gun-1.20.1-forge-2.0.0.jar"
+          }
+        },
+        {
+          "id": "Placebo-1.20.1-8.6.2.jar",
+          "name": "Placebo-1.20.1-8.6.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 285351,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Placebo-1.20.1-8.6.2.jar",
+            "MD5": "0b7358e758257452184a3a8f82f60abe",
+            "path": "mods/Placebo-1.20.1-8.6.2.jar"
+          }
+        },
+        {
+          "id": "PuzzlesLib-v8.1.25-1.20.1-Forge.jar",
+          "name": "PuzzlesLib-v8.1.25-1.20.1-Forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1002463,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/PuzzlesLib-v8.1.25-1.20.1-Forge.jar",
+            "MD5": "5d476cf7ce6bf3c2d6fe6b0358f09b70",
+            "path": "mods/PuzzlesLib-v8.1.25-1.20.1-Forge.jar"
+          }
+        },
+        {
+          "id": "rainbowreef-2.1-1.20.1.jar",
+          "name": "rainbowreef-2.1-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 270448,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/rainbowreef-2.1-1.20.1.jar",
+            "MD5": "2423a6e0b2c9a35d1bee3312e7dcfa36",
+            "path": "mods/rainbowreef-2.1-1.20.1.jar"
+          }
+        },
+        {
+          "id": "resourcefulconfig-forge-1.20.1-2.1.2.jar",
+          "name": "resourcefulconfig-forge-1.20.1-2.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 136630,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar",
+            "MD5": "84ec6d833405f9eb37b1275e8d828a74",
+            "path": "mods/resourcefulconfig-forge-1.20.1-2.1.2.jar"
+          }
+        },
+        {
+          "id": "rhino-forge-2001.2.3-build.6.jar",
+          "name": "rhino-forge-2001.2.3-build.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1796600,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/rhino-forge-2001.2.3-build.6.jar",
+            "MD5": "c6f376b91e330b5e220541aab5edd92f",
+            "path": "mods/rhino-forge-2001.2.3-build.6.jar"
+          }
+        },
+        {
+          "id": "saturn-mc1.20.1-0.1.3.jar",
+          "name": "saturn-mc1.20.1-0.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 92319,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/saturn-mc1.20.1-0.1.3.jar",
+            "MD5": "56a9a1cc126425b04acc5f8bd7ed67f1",
+            "path": "mods/saturn-mc1.20.1-0.1.3.jar"
+          }
+        },
+        {
+          "id": "scuba_gear-1.20.1-1.0.6.jar",
+          "name": "scuba_gear-1.20.1-1.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 58104,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/scuba_gear-1.20.1-1.0.6.jar",
+            "MD5": "228f2b902488888445ab488518257dbd",
+            "path": "mods/scuba_gear-1.20.1-1.0.6.jar"
+          }
+        },
+        {
+          "id": "Searchables-forge-1.20.1-1.0.3.jar",
+          "name": "Searchables-forge-1.20.1-1.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 77732,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Searchables-forge-1.20.1-1.0.3.jar",
+            "MD5": "9f5418e9c08c18a375ef42fada4bcef2",
+            "path": "mods/Searchables-forge-1.20.1-1.0.3.jar"
+          }
+        },
+        {
+          "id": "smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+          "name": "smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 41044,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+            "MD5": "c8cd5ae14d99796fd92c95a353e96211",
+            "path": "mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar"
+          }
+        },
+        {
+          "id": "smoothchunk-1.20.1-3.6.jar",
+          "name": "smoothchunk-1.20.1-3.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12011,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/smoothchunk-1.20.1-3.6.jar",
+            "MD5": "b38a463e858e0b8c0afdf322917b4426",
+            "path": "mods/smoothchunk-1.20.1-3.6.jar"
+          }
+        },
+        {
+          "id": "sparsestructuresreforged-1.20.1-0.0.1.jar",
+          "name": "sparsestructuresreforged-1.20.1-0.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9240,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/sparsestructuresreforged-1.20.1-0.0.1.jar",
+            "MD5": "e3815a7ec7ff7ba8994701437992aa62",
+            "path": "mods/sparsestructuresreforged-1.20.1-0.0.1.jar"
+          }
+        },
+        {
+          "id": "spawn-1.0.2-forge.jar",
+          "name": "spawn-1.0.2-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7031738,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/spawn-1.0.2-forge.jar",
+            "MD5": "21d87aa1c8d10f3bc08557149e08cf5d",
+            "path": "mods/spawn-1.0.2-forge.jar"
+          }
+        },
+        {
+          "id": "structureessentials-1.20.1-3.4.jar",
+          "name": "structureessentials-1.20.1-3.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29061,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/structureessentials-1.20.1-3.4.jar",
+            "MD5": "116050743302892be66b8db8c3e89954",
+            "path": "mods/structureessentials-1.20.1-3.4.jar"
+          }
+        },
+        {
+          "id": "structure_gel-1.20.1-2.16.2.jar",
+          "name": "structure_gel-1.20.1-2.16.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 966028,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/structure_gel-1.20.1-2.16.2.jar",
+            "MD5": "a4e07a1d6ff69901f70b014683f04498",
+            "path": "mods/structure_gel-1.20.1-2.16.2.jar"
+          }
+        },
+        {
+          "id": "TaxOceanPillager+M.1.20.1+ForM.1.0.0.jar",
+          "name": "TaxOceanPillager+M.1.20.1+ForM.1.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 43115,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/TaxOceanPillager+M.1.20.1+ForM.1.0.0.jar",
+            "MD5": "e03debd07bd2ed5a736c90c1489e3f4d",
+            "path": "mods/TaxOceanPillager+M.1.20.1+ForM.1.0.0.jar"
+          }
+        },
+        {
+          "id": "TaxOceanVillager+M.1.20.1+ForM.3.1.3.jar",
+          "name": "TaxOceanVillager+M.1.20.1+ForM.3.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3353829,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/TaxOceanVillager+M.1.20.1+ForM.3.1.3.jar",
+            "MD5": "ad9df1b3e7afc3352fafef65f5f8b4f0",
+            "path": "mods/TaxOceanVillager+M.1.20.1+ForM.3.1.3.jar"
+          }
+        },
+        {
+          "id": "TerraBlender-forge-1.20.1-3.0.1.7.jar",
+          "name": "TerraBlender-forge-1.20.1-3.0.1.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 107534,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/TerraBlender-forge-1.20.1-3.0.1.7.jar",
+            "MD5": "78abbc04e408fb61de6df9c968008c4b",
+            "path": "mods/TerraBlender-forge-1.20.1-3.0.1.7.jar"
+          }
+        },
+        {
+          "id": "The-Hordes-1.20.1-1.5.1.jar",
+          "name": "The-Hordes-1.20.1-1.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 581981,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/The-Hordes-1.20.1-1.5.1.jar",
+            "MD5": "8bbcb107cfd791a1aa3db30aae2c1ab2",
+            "path": "mods/The-Hordes-1.20.1-1.5.1.jar"
+          }
+        },
+        {
+          "id": "tidal-towns-1.3.3_1.20.4.jar",
+          "name": "tidal-towns-1.3.3_1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 109410,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/tidal-towns-1.3.3_1.20.4.jar",
+            "MD5": "0f57cd844532c5c764f1a1b53d3f4052",
+            "path": "mods/tidal-towns-1.3.3_1.20.4.jar"
+          }
+        },
+        {
+          "id": "travelersbackpack-forge-1.20.1-9.1.38.jar",
+          "name": "travelersbackpack-forge-1.20.1-9.1.38.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1173691,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/travelersbackpack-forge-1.20.1-9.1.38.jar",
+            "MD5": "f11cc7cf3f05b1e97a071301eca1c65c",
+            "path": "mods/travelersbackpack-forge-1.20.1-9.1.38.jar"
+          }
+        },
+        {
+          "id": "unusualfishmod-1.1.5.jar",
+          "name": "unusualfishmod-1.1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5046307,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/unusualfishmod-1.1.5.jar",
+            "MD5": "8fcf391baa75c62142de7d36694d7faa",
+            "path": "mods/unusualfishmod-1.1.5.jar"
+          }
+        },
+        {
+          "id": "wits-1.1.0+1.20.1-forge.jar",
+          "name": "wits-1.1.0+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13903,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/wits-1.1.0+1.20.1-forge.jar",
+            "MD5": "d0636bc871d66a2cd8700f507b5ef572",
+            "path": "mods/wits-1.1.0+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "worldedit-mod-7.2.15.jar",
+          "name": "worldedit-mod-7.2.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639",
+            "path": "mods/worldedit-mod-7.2.15.jar"
+          }
+        },
+        {
+          "id": "Xaeros_Minimap_25.2.10_Forge_1.20.jar",
+          "name": "Xaeros_Minimap_25.2.10_Forge_1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1723029,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
+            "MD5": "2b2bfaf3a1872b83c57aaa51c73f10d9",
+            "path": "mods/Xaeros_Minimap_25.2.10_Forge_1.20.jar"
+          }
+        },
+        {
+          "id": "YetAnotherConfigLib-3.6.1+1.20.1-forge.jar",
+          "name": "YetAnotherConfigLib-3.6.1+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1173304,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/YetAnotherConfigLib-3.6.1+1.20.1-forge.jar",
+            "MD5": "9ec2a8bcd5036b4d7ef5e72af3d973ac",
+            "path": "mods/YetAnotherConfigLib-3.6.1+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "YungsApi-1.20-Forge-4.0.6.jar",
+          "name": "YungsApi-1.20-Forge-4.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 370524,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/YungsApi-1.20-Forge-4.0.6.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c",
+            "path": "mods/YungsApi-1.20-Forge-4.0.6.jar"
+          }
+        },
+        {
+          "id": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+          "name": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1033262,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+            "MD5": "467336218d681221ef8d875b226eb1bc",
+            "path": "mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
+          }
+        },
+        {
+          "id": "Zeta-1.0-24.jar",
+          "name": "Zeta-1.0-24.jar",
+          "type": "File",
+          "artifact": {
+            "size": 991472,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/mods/Zeta-1.0-24.jar",
+            "MD5": "5adf9331772be4b4eed0aca79f173ca6",
+            "path": "mods/Zeta-1.0-24.jar"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 173,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/servers.dat",
+            "MD5": "e4c4cd07417943858f9554b64de19476",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "servers.dat_old",
+          "name": "servers.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 101,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/servers.dat_old",
+            "MD5": "2ee6e6cc6d43bbfc0a1b7498762b746e",
+            "path": "servers.dat_old"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip",
+          "name": "ComplementaryUnbound_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500699,
+            "url": "https://juh8750.github.io/servers/ddamong-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+            "MD5": "3f83f81df2ad4608d830017425b45bac",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
